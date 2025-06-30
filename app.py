@@ -1,114 +1,158 @@
-# app.py — slug‑based header normalisation + streamlined dashboard
-# ---------------------------------------------------------------
-# Author‑proof: works as long as headers *contain* the key words
-# (UnitsPurchased / Total Sale Value etc.), regardless of spaces/case.
+# app.py — fuzzy‑matching header normalisation + Streamlit dashboard
+# -----------------------------------------------------------------
+# Requirements: streamlit pandas numpy plotly openpyxl (for future Excel)
 
-import os, re, pandas as pd, numpy as np, streamlit as st, plotly.express as px
+import os, re, difflib
+import pandas as pd, numpy as np
+import streamlit as st
+import plotly.express as px
 
 st.set_page_config("Sales Analytics Dashboard", layout="wide")
 st.title("📊 Comprehensive Sales Analytics Dashboard")
 
-# ──────────────────────────────── 1. Load the CSV  ─────────────────────────────
+# 1️⃣ LOAD CSV -------------------------------------------------------------
 DATA_FILE = "IA_dataset.csv"
 
 if not os.path.exists(DATA_FILE):
-    st.error(f"❌ `{DATA_FILE}` not found. Place the file next to `app.py` and restart.")
+    st.error(f"❌ `{DATA_FILE}` not found. Place it beside app.py and restart.")
     st.stop()
 
 df_raw = pd.read_csv(DATA_FILE)
 
-# ─────────────────────────────── 2. Slugify headers  ───────────────────────────
-def slug(txt: str) -> str:
-    """lower‑case, strip, drop non‑alphanumerics → safe key"""
-    txt = re.sub(r"[\\s\\-]+", "", txt.strip().lower())
-    return re.sub(r"[^0-9a-z]", "", txt)
+# 2️⃣ SLUGIFY HEADERS ------------------------------------------------------
+def slug(text: str) -> str:
+    """lower‑case, trim, replace whitespace/dashes, drop non‑alnum"""
+    text = re.sub(r"[\\s\\-]+", "", text.strip().lower())
+    return re.sub(r"[^0-9a-z]", "", text)
 
-df = df_raw.copy()
-df.columns = [slug(c) for c in df.columns]
+orig_cols = list(df_raw.columns)
+slug_map  = {slug(c): c for c in orig_cols}          # slug → original
+df        = df_raw.copy()
+df.columns = [slug(c) for c in df.columns]           # work on slug headers
 
-# ────────────────────────────── 3. Column dictionary  ──────────────────────────
-# Canonical slugs we expect
-REQ = {
-    "age": "age",
-    "gender": "gender",
-    "location": "location",
-    "productvariant": "productvariant",
-    "unitspurchased": "unitspurchased",        # from “UnitsPurchased”
-    "unitprice": "unitprice",                  # if present
-    "feedbackscore": "feedbackscore",
-    "channel": "channel",
-    "paymenttype": "paymenttype",
-    "totalsalevalue": "totalsalevalue",        # from “Total Sale Value”
+# 3️⃣ REQUIRED CANONICAL NAMES + SYNONYMS ---------------------------------
+REQUIRED = {
+    "age",
+    "gender",
+    "location",
+    "productvariant",
+    "unitspurchased",
+    "feedbackscore",
+    "channel",
+    "paymenttype",
+    "totalsalevalue",   # will be calculated if absent
 }
 
-# 3.a  Compute TotalSaleValue if missing but Units × Price exist
-if "totalsalevalue" not in df.columns and {"unitspurchased", "unitprice"} <= set(df.columns):
-    df["totalsalevalue"] = (
-        pd.to_numeric(df["unitspurchased"], errors="coerce")
-        * pd.to_numeric(df["unitprice"], errors="coerce")
-    )
+SYNONYM_GROUPS = {
+    "unitspurchased": ["unitpurchased", "units", "quantity", "qty"],
+    "feedbackscore":  ["feedback", "rating", "satisfaction"],
+    "totalsalevalue": ["totalsale", "salesvalue", "totalsales"],
+}
 
-# 3.b  Verify required columns
-missing = [c for c in REQ.values() if c not in df.columns]
+# Add synonym slugs to REQUIRED set for fuzzy search
+all_targets = set(REQUIRED)
+for target, alts in SYNONYM_GROUPS.items():
+    all_targets.update(alts)
+
+# 4️⃣ FUZZY‑MATCH HEADERS --------------------------------------------------
+matched = {}          # canonical → existing slug column
+missing = set(REQUIRED)
+
+for canon in REQUIRED:
+    # list of candidate slugs to try (canonical + synonyms)
+    candidates = [canon] + SYNONYM_GROUPS.get(canon, [])
+    found = None
+    # exact slug match first
+    for cand in candidates:
+        if cand in df.columns:
+            found = cand
+            break
+    # fuzzy (Levenshtein) match second
+    if not found:
+        close = difflib.get_close_matches(canon, df.columns, n=1, cutoff=0.75)
+        if close:
+            found = close[0]
+    # record result
+    if found:
+        matched[canon] = found
+        missing.discard(canon)
+
+# 5️⃣ HANDLE totalsalevalue CALCULATION -----------------------------------
+if "totalsalevalue" in missing:
+    # try compute from units × price
+    units_col = matched.get("unitspurchased") or difflib.get_close_matches(
+        "unitspurchased", df.columns, n=1, cutoff=0.75
+    )
+    price_col = "unitprice" if "unitprice" in df.columns else None
+    if units_col and price_col:
+        if isinstance(units_col, list): units_col = units_col[0]
+        df["totalsalevalue"] = (
+            pd.to_numeric(df[units_col], errors="coerce") *
+            pd.to_numeric(df[price_col], errors="coerce")
+        )
+        matched["totalsalevalue"] = "totalsalevalue"
+        missing.discard("totalsalevalue")
+
+# 6️⃣ FINAL VALIDATION -----------------------------------------------------
 if missing:
     st.error(
-        "❌ Required column(s) missing even after header normalisation: "
-        f"**{', '.join(missing)}**"
+        "❌ Still missing required column(s) even after fuzzy matching: "
+        f"**{', '.join(sorted(missing))}**"
     )
     st.write("Columns detected after slugification:", list(df.columns))
     st.stop()
 
-# 3.c  Make sure numeric columns are numeric
-for nc in ["age", "unitspurchased", "feedbackscore", "totalsalevalue"]:
-    df[nc] = pd.to_numeric(df[nc], errors="coerce")
+# 7️⃣ RENAME matched columns to canonical names ---------------------------
+df = df.rename(columns={v: k for k, v in matched.items()})
 
+# Coerce numeric columns
+for col in ["age", "unitspurchased", "feedbackscore", "totalsalevalue"]:
+    df[col] = pd.to_numeric(df[col], errors="coerce")
 df.dropna(subset=["totalsalevalue"], inplace=True)
 
-# ─────────────────────────────── 4. Sidebar filters  ───────────────────────────
+# 8️⃣ SIDEBAR FILTERS ------------------------------------------------------
 st.sidebar.header("🔎 Filters")
 
-def multi(label, column):
+def multiselect_all(label, column):
     opts = df[column].dropna().unique().tolist()
     sel  = st.sidebar.multiselect(label, opts, default=opts)
-    return sel or opts  # if user clears, treat as “all”
+    return sel or opts
 
-locs  = multi("Location",        "location")
-prods = multi("Product Variant", "productvariant")
-chns  = multi("Channel",         "channel")
-gnds  = multi("Gender",          "gender")
-pays  = multi("Payment Type",    "paymenttype")
+locations = multiselect_all("Location", "location")
+products  = multiselect_all("Product Variant", "productvariant")
+channels  = multiselect_all("Channel", "channel")
+genders   = multiselect_all("Gender", "gender")
+payments  = multiselect_all("Payment Type", "paymenttype")
 
-age_rng  = st.sidebar.slider("Age",
-                             int(df.age.min()), int(df.age.max()),
-                             (int(df.age.min()), int(df.age.max())))
-unit_rng = st.sidebar.slider("Units Purchased",
-                             int(df.unitspurchased.min()), int(df.unitspurchased.max()),
-                             (int(df.unitspurchased.min()), int(df.unitspurchased.max())))
-fb_rng   = st.sidebar.slider("Feedback Score",
-                             int(df.feedbackscore.min()), int(df.feedbackscore.max()),
-                             (int(df.feedbackscore.min()), int(df.feedbackscore.max())))
+age_range   = st.sidebar.slider("Age Range", int(df.age.min()), int(df.age.max()),
+                                (int(df.age.min()), int(df.age.max())))
+unit_range  = st.sidebar.slider("Units Purchased",
+                                int(df.unitspurchased.min()), int(df.unitspurchased.max()),
+                                (int(df.unitspurchased.min()), int(df.unitspurchased.max())))
+fb_range    = st.sidebar.slider("Feedback Score",
+                                int(df.feedbackscore.min()), int(df.feedbackscore.max()),
+                                (int(df.feedbackscore.min()), int(df.feedbackscore.max())))
 
 mask = (
-    df.location.isin(locs)
-    & df.productvariant.isin(prods)
-    & df.channel.isin(chns)
-    & df.gender.isin(gnds)
-    & df.paymenttype.isin(pays)
-    & df.age.between(*age_rng)
-    & df.unitspurchased.between(*unit_rng)
-    & df.feedbackscore.between(*fb_rng)
+    df.location.isin(locations) &
+    df.productvariant.isin(products) &
+    df.channel.isin(channels) &
+    df.gender.isin(genders) &
+    df.paymenttype.isin(payments) &
+    df.age.between(*age_range) &
+    df.unitspurchased.between(*unit_range) &
+    df.feedbackscore.between(*fb_range)
 )
 df_f = df.loc[mask].copy()
 
-# ─────────────────────────────── 5. Dashboard tabs  ────────────────────────────
+# 9️⃣ DASHBOARD ------------------------------------------------------------
 tabs = st.tabs(
     ["KPIs", "Demographics", "Products & Channels",
-     "Feedback Impact", "Payment Insights", "Correlations"]
+     "Feedback", "Payment", "Correlations"]
 )
 
-# 5.1  KPIs
 with tabs[0]:
-    st.subheader("📌 High‑level KPIs (filtered)")
+    st.subheader("📌 High‑level KPIs")
     a,b,c,d = st.columns(4)
     a.metric("Total Sale Value", f"${df_f.totalsalevalue.sum():,.2f}")
     b.metric("Avg per Order",    f"${df_f.totalsalevalue.mean():,.2f}")
@@ -116,11 +160,10 @@ with tabs[0]:
     d.metric("Avg Feedback",     f"{df_f.feedbackscore.mean():.2f}")
     st.plotly_chart(
         px.histogram(df_f, x="totalsalevalue", nbins=30,
-                     title="Distribution of Total Sale Values"),
+                     title="Total Sale Value Distribution"),
         use_container_width=True
     )
 
-# 5.2  Demographics
 with tabs[1]:
     st.subheader("👥 Demographic Impact")
     age_bins = pd.cut(df_f.age, bins=[0,20,30,40,50,60,100],
@@ -139,13 +182,12 @@ with tabs[1]:
         use_container_width=True
     )
 
-# 5.3  Products & Channels
 with tabs[2]:
     st.subheader("📦 Products & 📡 Channels")
     st.plotly_chart(
         px.bar(df_f.groupby("productvariant").totalsalevalue.sum().reset_index(),
-               x="productvariant", y="totalsalevalue", color="productvariant",
-               text_auto=".2s", title="Sales by Product Variant"),
+               x="productvariant", y="totalsalevalue", text_auto=".2s",
+               color="productvariant", title="Sales by Product Variant"),
         use_container_width=True
     )
     st.plotly_chart(
@@ -158,11 +200,10 @@ with tabs[2]:
                           aggfunc="sum", fill_value=0)
     st.plotly_chart(
         px.imshow(heat, text_auto=True, aspect="auto",
-                  title="Product‑Channel Heatmap (Total Sales)"),
+                  title="Product‑Channel Heatmap"),
         use_container_width=True
     )
 
-# 5.4  Feedback Impact
 with tabs[3]:
     st.subheader("⭐ Feedback vs Sales")
     st.plotly_chart(
@@ -178,7 +219,6 @@ with tabs[3]:
         use_container_width=True
     )
 
-# 5.5  Payment Insights
 with tabs[4]:
     st.subheader("💳 Payment Insights")
     st.plotly_chart(
@@ -188,10 +228,9 @@ with tabs[4]:
         use_container_width=True
     )
 
-# 5.6  Correlations
 with tabs[5]:
-    st.subheader("📈 Correlation Matrix & Scatter")
-    num_cols = ["age", "unitspurchased", "feedbackscore", "totalsalevalue"]
+    st.subheader("📈 Correlations")
+    num_cols = ["age","unitspurchased","feedbackscore","totalsalevalue"]
     st.plotly_chart(
         px.imshow(df_f[num_cols].corr(), text_auto=True, aspect="auto",
                   title="Correlation Matrix"),
@@ -208,5 +247,5 @@ with tabs[5]:
         use_container_width=True
     )
 
-st.success("✅ Dashboard ready — explore with the sidebar filters!")
+st.success("✅ Dashboard loaded — explore with the sidebar filters!")
 
