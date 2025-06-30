@@ -207,7 +207,7 @@ elif page == "📦 Products & Channels":
         use_container_width=True)
 
 elif page == "⭐ Feedback Impact":
-    st.header("Does Love = Money?")
+    st.header("Feedback Analysis")
     st.plotly_chart(
         px.scatter(data, x="feedbackscore", y="totalsalevalue",
                    size="unitspurchased", color="productvariant",
