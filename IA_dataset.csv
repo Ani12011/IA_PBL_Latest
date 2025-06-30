@@ -1,0 +1,1001 @@
+Date,CustomerID,Age,Gender,Location,ProductVariant,UnitsPurchased,UnitPrice,FeedbackScore,Channel,PaymentType,Total Sale Value
+2025-01-01 00:00:00,1107,29,Male,CityC,Vitamin-Boost,3,6.96,1.4,Offline,Credit Card,20.88
+2025-01-01 00:00:00,1010,49,Male,CityB,Classic,8,9.43,2.5,Offline,UPI,75.44
+2025-01-01 00:00:00,1053,50,Female,CityA,Vitamin-Boost,6,13.54,4.9,Offline,UPI,81.24
+2025-01-01 00:00:00,1112,21,Male,CityD,Sugar-Free,10,14.33,2,Offline,Cash,143.3
+2025-01-01 00:00:00,1556,42,Male,CityD,Vitamin-Boost,4,5.5,2,Offline,UPI,22
+2025-01-01 00:00:00,1238,26,Male,CityA,Vitamin-Boost,10,10.12,3.5,Offline,Credit Card,101.2
+2025-01-01 00:00:00,1038,55,Female,CityD,Energy,5,8.03,3.5,Offline,UPI,40.15
+2025-01-01 00:00:00,1980,42,Female,CityB,Classic,10,5.91,4.5,Offline,Cash,59.1
+2025-01-01 00:00:00,1146,47,Female,CityC,Energy,8,9.84,3.2,Offline,Debit Card,78.72
+2025-01-02 00:00:00,1768,41,Female,CityC,Classic,10,9.81,3,Offline,Credit Card,98.1
+2025-01-02 00:00:00,1665,19,Female,CityC,Energy,5,14.41,2.2,Online,UPI,72.05
+2025-01-02 00:00:00,1097,53,Female,CityD,Energy,5,11.63,1.5,Online,Cash,58.15
+2025-01-02 00:00:00,1447,50,Male,CityB,Classic,4,8.43,3.3,Offline,Cash,33.72
+2025-01-02 00:00:00,1164,42,Female,CityD,Energy,10,8.32,1.2,Offline,Debit Card,83.2
+2025-01-03 00:00:00,1920,45,Female,CityA,Energy,2,12.19,4.6,Online,UPI,24.38
+2025-01-03 00:00:00,1988,50,Male,CityB,Sugar-Free,4,13.48,1.1,Offline,Cash,53.92
+2025-01-03 00:00:00,1179,18,Female,CityC,Vitamin-Boost,5,7.96,1.5,Offline,Debit Card,39.8
+2025-01-03 00:00:00,1217,59,Male,CityA,Classic,1,14.09,2.1,Offline,Debit Card,14.09
+2025-01-03 00:00:00,1768,32,Male,CityB,Sugar-Free,10,9.54,4.6,Online,Credit Card,95.4
+2025-01-03 00:00:00,1973,50,Male,CityA,Classic,2,12.62,3.4,Online,Credit Card,25.24
+2025-01-03 00:00:00,1849,36,Male,CityB,Vitamin-Boost,10,6.6,2.4,Offline,Credit Card,66
+2025-01-04 00:00:00,1806,55,Male,CityA,Sugar-Free,10,6.54,4.8,Online,Credit Card,65.4
+2025-01-04 00:00:00,1905,36,Female,CityD,Energy,4,12.7,4.3,Offline,Debit Card,50.8
+2025-01-04 00:00:00,1668,58,Male,CityC,Classic,5,14.18,2.6,Offline,UPI,70.9
+2025-01-04 00:00:00,1688,38,Female,CityC,Vitamin-Boost,1,12.69,1.3,Offline,Credit Card,12.69
+2025-01-04 00:00:00,1380,21,Male,CityB,Classic,9,12.77,3.1,Online,Credit Card,114.93
+2025-01-04 00:00:00,1760,30,Female,CityC,Energy,8,6.85,1.6,Online,Cash,54.8
+2025-01-05 00:00:00,1039,35,Male,CityB,Energy,10,8.87,2.9,Offline,UPI,88.7
+2025-01-05 00:00:00,1439,22,Male,CityB,Sugar-Free,10,5.01,3.5,Offline,Credit Card,50.1
+2025-01-05 00:00:00,1358,48,Male,CityB,Classic,1,10.94,4.1,Offline,Credit Card,10.94
+2025-01-05 00:00:00,1253,35,Female,CityD,Energy,10,11.17,2.1,Offline,Credit Card,111.7
+2025-01-05 00:00:00,1489,52,Male,CityC,Energy,10,9.08,4.8,Online,Credit Card,90.8
+2025-01-05 00:00:00,1706,44,Male,CityC,Vitamin-Boost,10,11.02,4,Online,UPI,110.2
+2025-01-05 00:00:00,1647,21,Female,CityA,Classic,2,8.06,4.7,Online,Cash,16.12
+2025-01-06 00:00:00,1417,42,Male,CityC,Classic,10,6.7,2.6,Online,Debit Card,67
+2025-01-06 00:00:00,1762,38,Female,CityA,Energy,2,8.4,3.5,Offline,Credit Card,16.8
+2025-01-06 00:00:00,1195,59,Male,CityC,Vitamin-Boost,4,7.06,1.6,Offline,Cash,28.24
+2025-01-06 00:00:00,1329,46,Female,CityA,Vitamin-Boost,3,6.22,4.9,Online,Credit Card,18.66
+2025-01-06 00:00:00,1250,20,Female,CityB,Vitamin-Boost,6,10.96,4.3,Offline,Debit Card,65.76
+2025-01-06 00:00:00,1757,59,Male,CityC,Sugar-Free,8,6.61,4.2,Online,Debit Card,52.88
+2025-01-07 00:00:00,1475,22,Male,CityB,Classic,4,5.4,4.8,Offline,Credit Card,21.6
+2025-01-07 00:00:00,1588,38,Male,CityC,Energy,3,9.34,1.9,Online,Debit Card,28.02
+2025-01-07 00:00:00,1476,31,Male,CityC,Sugar-Free,10,12.09,4.1,Online,Credit Card,120.9
+2025-01-08 00:00:00,1946,33,Male,CityC,Vitamin-Boost,10,11.62,1.4,Offline,Credit Card,116.2
+2025-01-08 00:00:00,1825,39,Female,CityC,Classic,10,7.57,3.9,Online,Credit Card,75.7
+2025-01-08 00:00:00,1411,44,Male,CityC,Energy,10,9.75,4.2,Offline,Credit Card,97.5
+2025-01-08 00:00:00,1964,44,Male,CityC,Classic,6,13.24,3,Offline,Cash,79.44
+2025-01-08 00:00:00,1007,58,Male,CityD,Vitamin-Boost,10,10.06,2,Offline,Credit Card,100.6
+2025-01-08 00:00:00,1551,48,Female,CityB,Sugar-Free,1,11.69,1,Online,Cash,11.69
+2025-01-08 00:00:00,1733,38,Male,CityD,Sugar-Free,4,12.31,1.5,Online,Credit Card,49.24
+2025-01-08 00:00:00,1141,34,Female,CityC,Vitamin-Boost,2,13.02,3.7,Online,Cash,26.04
+2025-01-08 00:00:00,1216,52,Female,CityC,Sugar-Free,10,6.31,2.9,Offline,UPI,63.1
+2025-01-09 00:00:00,1658,38,Male,CityD,Energy,8,8.47,4.3,Offline,Debit Card,67.76
+2025-01-09 00:00:00,1117,48,Female,CityA,Energy,10,5.95,3,Offline,Debit Card,59.5
+2025-01-09 00:00:00,1890,38,Female,CityA,Vitamin-Boost,10,13.14,3,Online,UPI,131.4
+2025-01-09 00:00:00,1497,41,Female,CityD,Sugar-Free,10,9.61,4.3,Offline,Cash,96.1
+2025-01-09 00:00:00,1465,53,Female,CityB,Classic,6,13.61,1.8,Offline,Debit Card,81.66
+2025-01-09 00:00:00,1502,28,Female,CityD,Classic,10,12.92,3,Offline,Credit Card,129.2
+2025-01-10 00:00:00,1938,38,Female,CityB,Energy,10,7.35,2,Offline,Cash,73.5
+2025-01-10 00:00:00,1538,37,Female,CityA,Sugar-Free,10,11.23,3.8,Online,Cash,112.3
+2025-01-10 00:00:00,1793,20,Female,CityC,Classic,6,7.14,4.5,Offline,UPI,42.84
+2025-01-11 00:00:00,1083,43,Female,CityC,Vitamin-Boost,1,14.41,3.5,Online,Cash,14.41
+2025-01-11 00:00:00,1225,54,Female,CityA,Vitamin-Boost,4,7.91,1.4,Offline,Debit Card,31.64
+2025-01-12 00:00:00,1843,58,Male,CityD,Sugar-Free,10,6.33,4,Online,UPI,63.3
+2025-01-12 00:00:00,1215,18,Male,CityA,Sugar-Free,1,8.1,2.4,Online,Cash,8.1
+2025-01-12 00:00:00,1449,39,Male,CityC,Vitamin-Boost,4,14.35,1.2,Offline,Cash,57.4
+2025-01-12 00:00:00,1568,57,Female,CityD,Classic,10,6.09,2,Offline,Debit Card,60.9
+2025-01-12 00:00:00,1660,56,Female,CityC,Classic,7,6.15,1.8,Online,Debit Card,43.05
+2025-01-12 00:00:00,1167,38,Female,CityA,Sugar-Free,10,8.08,2.5,Online,Credit Card,80.8
+2025-01-12 00:00:00,1738,19,Female,CityD,Energy,10,10,4.9,Online,Debit Card,100
+2025-01-12 00:00:00,1339,33,Male,CityD,Sugar-Free,6,5.36,3,Online,Debit Card,32.16
+2025-01-13 00:00:00,1496,37,Male,CityD,Vitamin-Boost,10,8.17,4.4,Online,UPI,81.7
+2025-01-13 00:00:00,1603,56,Female,CityD,Energy,7,6.98,3.1,Online,Debit Card,48.86
+2025-01-13 00:00:00,1726,38,Male,CityA,Classic,8,7.61,1.6,Online,Cash,60.88
+2025-01-13 00:00:00,1364,21,Female,CityC,Vitamin-Boost,6,12.49,4.2,Online,UPI,74.94
+2025-01-13 00:00:00,1615,41,Female,CityD,Energy,1,7.52,1.2,Offline,Debit Card,7.52
+2025-01-13 00:00:00,1470,40,Female,CityB,Energy,6,13.31,1.9,Offline,Credit Card,79.86
+2025-01-14 00:00:00,1271,26,Male,CityD,Energy,10,14.29,3.1,Offline,Cash,142.9
+2025-01-14 00:00:00,1362,38,Male,CityD,Classic,10,14.62,2,Offline,Credit Card,146.2
+2025-01-14 00:00:00,1355,41,Female,CityA,Vitamin-Boost,10,12.62,2,Online,Credit Card,126.2
+2025-01-14 00:00:00,1224,25,Male,CityD,Vitamin-Boost,10,14,2.9,Online,Cash,140
+2025-01-14 00:00:00,1419,43,Male,CityB,Energy,8,12.8,1.5,Offline,Credit Card,102.4
+2025-01-15 00:00:00,1208,47,Male,CityA,Vitamin-Boost,8,14.92,2.3,Offline,Cash,119.36
+2025-01-15 00:00:00,1440,19,Female,CityD,Energy,7,12.12,4.6,Offline,Debit Card,84.84
+2025-01-15 00:00:00,1295,44,Female,CityD,Classic,6,7.26,2.7,Offline,Credit Card,43.56
+2025-01-15 00:00:00,1295,28,Male,CityC,Classic,1,5.5,1.4,Online,UPI,5.5
+2025-01-15 00:00:00,1521,23,Male,CityC,Energy,7,10.49,2.3,Offline,UPI,73.43
+2025-01-15 00:00:00,1666,42,Male,CityC,Vitamin-Boost,5,13.45,4.3,Offline,Debit Card,67.25
+2025-01-15 00:00:00,1711,54,Female,CityC,Energy,8,6.08,4.9,Online,Debit Card,48.64
+2025-01-16 00:00:00,1748,50,Male,CityD,Classic,2,10.77,3.3,Offline,Credit Card,21.54
+2025-01-16 00:00:00,1576,50,Female,CityD,Vitamin-Boost,8,7.33,1.7,Offline,Credit Card,58.64
+2025-01-16 00:00:00,1743,38,Female,CityB,Energy,4,13.86,3.4,Online,Debit Card,55.44
+2025-01-17 00:00:00,1547,46,Female,CityB,Classic,1,6.79,3.7,Offline,Credit Card,6.79
+2025-01-17 00:00:00,1773,47,Female,CityC,Sugar-Free,10,10.58,4.4,Online,Debit Card,105.8
+2025-01-17 00:00:00,1123,42,Female,CityD,Vitamin-Boost,10,8.14,3.9,Online,Cash,81.4
+2025-01-17 00:00:00,1578,36,Male,CityB,Classic,10,5.46,3.3,Offline,Credit Card,54.6
+2025-01-17 00:00:00,1215,37,Female,CityC,Classic,10,13.57,1.4,Online,Credit Card,135.7
+2025-01-17 00:00:00,1359,33,Female,CityB,Energy,10,11.74,3.5,Online,UPI,117.4
+2025-01-18 00:00:00,1142,42,Male,CityA,Sugar-Free,10,12.15,2.1,Online,Cash,121.5
+2025-01-18 00:00:00,1468,55,Female,CityC,Vitamin-Boost,8,11.7,3.9,Offline,Credit Card,93.6
+2025-01-18 00:00:00,1223,46,Male,CityA,Vitamin-Boost,10,11.23,2.4,Offline,Debit Card,112.3
+2025-01-19 00:00:00,1040,59,Female,CityD,Classic,10,9.19,3.5,Offline,Debit Card,91.9
+2025-01-19 00:00:00,1887,58,Female,CityC,Vitamin-Boost,10,13.8,2.2,Offline,Debit Card,138
+2025-01-19 00:00:00,1515,36,Male,CityA,Sugar-Free,10,10.28,2.1,Online,Credit Card,102.8
+2025-01-19 00:00:00,1182,31,Male,CityD,Energy,2,8.69,1.9,Online,UPI,17.38
+2025-01-19 00:00:00,1484,50,Male,CityA,Classic,7,10.01,2.4,Online,UPI,70.07
+2025-01-20 00:00:00,1976,39,Male,CityA,Sugar-Free,8,7.59,4.5,Online,Credit Card,60.72
+2025-01-20 00:00:00,1317,19,Male,CityC,Energy,10,6.68,4.7,Offline,Cash,66.8
+2025-01-20 00:00:00,1933,32,Female,CityA,Classic,3,12.99,3.5,Offline,Cash,38.97
+2025-01-21 00:00:00,1865,57,Female,CityC,Classic,10,7.41,1.8,Offline,Credit Card,74.1
+2025-01-21 00:00:00,1864,55,Male,CityD,Energy,7,14.17,2.8,Online,Debit Card,99.19
+2025-01-21 00:00:00,1523,33,Male,CityA,Vitamin-Boost,9,12.28,3.3,Offline,Debit Card,110.52
+2025-01-21 00:00:00,1758,51,Female,CityD,Vitamin-Boost,2,10.74,2,Offline,Debit Card,21.48
+2025-01-21 00:00:00,1477,33,Male,CityA,Sugar-Free,1,12.83,2.3,Online,UPI,12.83
+2025-01-21 00:00:00,1870,48,Female,CityA,Energy,8,12.64,3,Online,Credit Card,101.12
+2025-01-21 00:00:00,1409,37,Female,CityC,Vitamin-Boost,7,5.28,1.2,Online,Credit Card,36.96
+2025-01-21 00:00:00,1571,34,Female,CityC,Vitamin-Boost,10,11.25,4.3,Offline,Cash,112.5
+2025-01-22 00:00:00,1454,34,Male,CityA,Sugar-Free,2,10.97,2.8,Offline,Debit Card,21.94
+2025-01-22 00:00:00,1475,42,Female,CityC,Energy,9,10.12,2.9,Offline,Debit Card,91.08
+2025-01-22 00:00:00,1288,31,Male,CityA,Sugar-Free,8,5.9,4.8,Offline,Credit Card,47.2
+2025-01-22 00:00:00,1600,55,Female,CityC,Sugar-Free,3,10.48,3.3,Online,UPI,31.44
+2025-01-23 00:00:00,1997,54,Male,CityD,Energy,8,7.86,1.7,Online,Debit Card,62.88
+2025-01-23 00:00:00,1936,30,Female,CityC,Vitamin-Boost,8,6.9,4.3,Offline,Credit Card,55.2
+2025-01-23 00:00:00,1814,57,Female,CityB,Vitamin-Boost,10,13.09,4.5,Offline,Debit Card,130.9
+2025-01-23 00:00:00,1370,35,Male,CityC,Sugar-Free,4,10.18,3.6,Online,Credit Card,40.72
+2025-01-24 00:00:00,1288,51,Male,CityD,Vitamin-Boost,10,13.51,3,Online,Credit Card,135.1
+2025-01-24 00:00:00,1639,46,Male,CityD,Vitamin-Boost,6,10.95,3.8,Online,Credit Card,65.7
+2025-01-24 00:00:00,1329,19,Male,CityC,Vitamin-Boost,3,6.77,2.3,Online,UPI,20.31
+2025-01-24 00:00:00,1226,49,Male,CityC,Vitamin-Boost,10,9.59,4.3,Offline,Credit Card,95.9
+2025-01-24 00:00:00,1077,29,Female,CityC,Energy,7,7.46,4.8,Online,Debit Card,52.22
+2025-01-25 00:00:00,1447,20,Male,CityB,Energy,4,11.35,2.5,Online,Credit Card,45.4
+2025-01-25 00:00:00,1777,20,Female,CityB,Sugar-Free,6,12.05,3.4,Offline,Debit Card,72.3
+2025-01-25 00:00:00,1039,49,Male,CityD,Sugar-Free,3,6.8,5,Offline,UPI,20.4
+2025-01-25 00:00:00,1674,57,Male,CityD,Classic,2,10.46,3,Online,UPI,20.92
+2025-01-25 00:00:00,1909,43,Female,CityA,Vitamin-Boost,6,11.42,1.2,Online,Debit Card,68.52
+2025-01-26 00:00:00,1556,35,Male,CityD,Classic,10,10.35,3.8,Offline,Debit Card,103.5
+2025-01-26 00:00:00,1710,53,Female,CityD,Vitamin-Boost,7,8.77,4.6,Online,Debit Card,61.39
+2025-01-26 00:00:00,1132,39,Male,CityA,Energy,5,10.97,1.7,Online,UPI,54.85
+2025-01-26 00:00:00,1863,29,Female,CityA,Energy,9,5.39,3.3,Online,Cash,48.51
+2025-01-26 00:00:00,1946,38,Male,CityB,Vitamin-Boost,10,5.41,1.5,Online,Cash,54.1
+2025-01-26 00:00:00,1915,38,Male,CityA,Vitamin-Boost,10,8.5,1.8,Online,Credit Card,85
+2025-01-27 00:00:00,1583,38,Female,CityC,Sugar-Free,8,8.3,3,Online,Debit Card,66.4
+2025-01-27 00:00:00,1832,28,Male,CityC,Energy,3,5.62,1.9,Offline,Credit Card,16.86
+2025-01-27 00:00:00,1549,36,Female,CityC,Energy,10,6.26,3.6,Offline,Cash,62.6
+2025-01-27 00:00:00,1401,32,Male,CityB,Energy,8,12.25,3.6,Online,Cash,98
+2025-01-27 00:00:00,1312,21,Male,CityA,Sugar-Free,10,5.71,3,Offline,Debit Card,57.1
+2025-01-27 00:00:00,1725,35,Male,CityC,Sugar-Free,4,11.76,4.9,Online,Debit Card,47.04
+2025-01-28 00:00:00,1982,55,Male,CityB,Sugar-Free,1,10.58,3,Offline,Cash,10.58
+2025-01-28 00:00:00,1431,52,Female,CityD,Energy,10,12.78,2.7,Offline,Cash,127.8
+2025-01-28 00:00:00,1105,53,Male,CityB,Energy,10,12.02,3.7,Offline,Cash,120.2
+2025-01-28 00:00:00,1126,51,Female,CityD,Vitamin-Boost,10,6.9,3.4,Online,Credit Card,69
+2025-01-28 00:00:00,1088,50,Male,CityA,Energy,8,6.37,1.7,Offline,UPI,50.96
+2025-01-28 00:00:00,1436,32,Male,CityB,Energy,10,9.45,5,Online,Cash,94.5
+2025-01-28 00:00:00,1355,45,Female,CityC,Sugar-Free,10,13.1,3,Online,Debit Card,131
+2025-01-28 00:00:00,1156,39,Female,CityD,Sugar-Free,10,11.73,4.3,Online,Debit Card,117.3
+2025-01-28 00:00:00,1232,25,Male,CityB,Vitamin-Boost,7,5.51,1.6,Online,UPI,38.57
+2025-01-29 00:00:00,1200,20,Female,CityD,Sugar-Free,10,14.77,4.6,Online,Debit Card,147.7
+2025-01-29 00:00:00,1614,19,Female,CityD,Classic,6,13.86,1.1,Online,Cash,83.16
+2025-01-29 00:00:00,1701,49,Male,CityA,Vitamin-Boost,1,7.69,3.2,Online,UPI,7.69
+2025-01-29 00:00:00,1260,45,Female,CityD,Sugar-Free,8,13.87,3.3,Offline,Credit Card,110.96
+2025-01-29 00:00:00,1992,38,Female,CityC,Energy,7,9.98,4,Offline,Cash,69.86
+2025-01-30 00:00:00,1591,38,Male,CityC,Energy,10,13.59,1.8,Offline,Credit Card,135.9
+2025-01-30 00:00:00,1987,32,Female,CityC,Vitamin-Boost,9,6.41,3.9,Offline,Debit Card,57.69
+2025-01-30 00:00:00,1169,49,Male,CityC,Energy,10,11.28,2.6,Offline,Debit Card,112.8
+2025-01-30 00:00:00,1709,40,Female,CityC,Sugar-Free,7,8.37,1.1,Offline,Credit Card,58.59
+2025-01-30 00:00:00,1834,55,Male,CityC,Energy,8,10.66,1,Online,UPI,85.28
+2025-01-30 00:00:00,1904,53,Male,CityD,Sugar-Free,7,5.21,3,Online,Debit Card,36.47
+2025-01-31 00:00:00,1686,55,Male,CityA,Vitamin-Boost,10,10.97,1.6,Online,Cash,109.7
+2025-02-01 00:00:00,1672,20,Male,CityD,Sugar-Free,8,14.57,2.2,Offline,UPI,116.56
+2025-02-01 00:00:00,1098,28,Male,CityC,Sugar-Free,6,14.09,1.5,Online,Debit Card,84.54
+2025-02-01 00:00:00,1853,46,Male,CityC,Classic,4,6.4,2.6,Offline,Cash,25.6
+2025-02-02 00:00:00,1692,24,Female,CityC,Vitamin-Boost,4,5.88,2.9,Offline,Cash,23.52
+2025-02-02 00:00:00,1761,23,Female,CityC,Classic,7,13.97,1.1,Online,Cash,97.79
+2025-02-02 00:00:00,1191,37,Male,CityB,Sugar-Free,6,10.51,1.6,Offline,Cash,63.06
+2025-02-02 00:00:00,1014,38,Male,CityA,Sugar-Free,7,13.12,1.3,Offline,Debit Card,91.84
+2025-02-02 00:00:00,1129,31,Male,CityA,Sugar-Free,6,6.28,3.7,Online,Cash,37.68
+2025-02-02 00:00:00,1301,30,Female,CityA,Vitamin-Boost,8,7.41,4.3,Offline,Cash,59.28
+2025-02-02 00:00:00,1379,23,Male,CityC,Energy,7,7.02,2.5,Offline,Credit Card,49.14
+2025-02-02 00:00:00,1924,18,Female,CityC,Sugar-Free,7,5.6,3.4,Online,UPI,39.2
+2025-02-03 00:00:00,1570,52,Male,CityA,Sugar-Free,7,14.66,2.8,Offline,UPI,102.62
+2025-02-03 00:00:00,1778,58,Female,CityC,Sugar-Free,10,13.12,1.3,Online,Debit Card,131.2
+2025-02-03 00:00:00,1993,56,Male,CityD,Classic,2,14.57,4.7,Offline,UPI,29.14
+2025-02-03 00:00:00,1026,35,Female,CityC,Sugar-Free,10,11.26,3.8,Offline,UPI,112.6
+2025-02-03 00:00:00,1019,51,Female,CityC,Sugar-Free,7,13.2,3.3,Offline,Debit Card,92.4
+2025-02-03 00:00:00,1327,32,Female,CityC,Vitamin-Boost,5,6.49,1.9,Online,Cash,32.45
+2025-02-04 00:00:00,1645,45,Female,CityA,Sugar-Free,10,10.93,4.9,Online,Debit Card,109.3
+2025-02-04 00:00:00,1295,38,Female,CityB,Classic,10,11.92,2.8,Online,Cash,119.2
+2025-02-04 00:00:00,1810,36,Female,CityC,Sugar-Free,10,11.19,1.8,Online,Cash,111.9
+2025-02-04 00:00:00,1238,58,Female,CityD,Classic,8,10.41,3.3,Online,Cash,83.28
+2025-02-04 00:00:00,1963,22,Male,CityD,Vitamin-Boost,5,13.58,2,Online,Cash,67.9
+2025-02-05 00:00:00,1746,39,Male,CityA,Energy,10,13.81,3.6,Online,Credit Card,138.1
+2025-02-05 00:00:00,1954,20,Male,CityC,Vitamin-Boost,10,14.56,2.8,Online,Debit Card,145.6
+2025-02-05 00:00:00,1715,57,Male,CityD,Classic,10,9.73,1.7,Offline,UPI,97.3
+2025-02-05 00:00:00,1622,48,Female,CityB,Energy,10,11.89,1.9,Offline,Debit Card,118.9
+2025-02-05 00:00:00,1260,53,Female,CityD,Sugar-Free,7,14.78,1.8,Online,Credit Card,103.46
+2025-02-05 00:00:00,1170,50,Male,CityB,Sugar-Free,6,5.11,4.6,Online,Debit Card,30.66
+2025-02-06 00:00:00,1329,45,Female,CityC,Classic,10,9.86,4.3,Offline,Credit Card,98.6
+2025-02-06 00:00:00,1087,18,Female,CityA,Vitamin-Boost,10,10.19,3,Online,Cash,101.9
+2025-02-06 00:00:00,1074,47,Male,CityC,Vitamin-Boost,7,8.8,1.9,Online,Cash,61.6
+2025-02-06 00:00:00,1214,56,Male,CityA,Sugar-Free,10,14.83,1.6,Online,UPI,148.3
+2025-02-06 00:00:00,1754,40,Female,CityC,Vitamin-Boost,8,12.53,2.3,Offline,Debit Card,100.24
+2025-02-07 00:00:00,1528,27,Male,CityB,Classic,9,10.52,2.8,Online,Debit Card,94.68
+2025-02-07 00:00:00,1378,24,Female,CityB,Vitamin-Boost,8,5.82,2,Online,Credit Card,46.56
+2025-02-07 00:00:00,1524,47,Female,CityA,Sugar-Free,10,12.42,1,Online,Credit Card,124.2
+2025-02-07 00:00:00,1156,53,Male,CityA,Vitamin-Boost,10,6.66,3.6,Offline,Debit Card,66.6
+2025-02-07 00:00:00,1616,57,Male,CityD,Sugar-Free,10,5.43,1.1,Online,Credit Card,54.3
+2025-02-07 00:00:00,1386,59,Male,CityA,Sugar-Free,10,10.02,3,Online,UPI,100.2
+2025-02-07 00:00:00,1177,26,Female,CityA,Sugar-Free,9,8.83,3.3,Offline,Debit Card,79.47
+2025-02-08 00:00:00,1814,54,Female,CityA,Energy,7,5.73,3,Online,Credit Card,40.11
+2025-02-08 00:00:00,1496,23,Male,CityC,Vitamin-Boost,10,10.06,2.8,Online,Debit Card,100.6
+2025-02-08 00:00:00,1704,19,Male,CityD,Classic,5,11.15,4.5,Offline,Credit Card,55.75
+2025-02-08 00:00:00,1085,38,Female,CityB,Vitamin-Boost,8,12.17,3.7,Online,Debit Card,97.36
+2025-02-08 00:00:00,1016,59,Male,CityA,Energy,4,9.02,4.2,Online,UPI,36.08
+2025-02-08 00:00:00,1468,19,Female,CityC,Energy,10,11.3,2.6,Offline,Cash,113
+2025-02-08 00:00:00,1890,32,Female,CityB,Sugar-Free,10,7.89,2.8,Online,UPI,78.9
+2025-02-08 00:00:00,1430,42,Female,CityA,Sugar-Free,8,13.83,4.3,Online,Credit Card,110.64
+2025-02-09 00:00:00,1096,55,Male,CityB,Sugar-Free,8,8.57,4,Online,Debit Card,68.56
+2025-02-09 00:00:00,1284,38,Female,CityC,Sugar-Free,4,8.94,3.6,Online,Credit Card,35.76
+2025-02-10 00:00:00,1597,28,Male,CityB,Vitamin-Boost,10,10.14,3.5,Offline,Debit Card,101.4
+2025-02-10 00:00:00,1948,44,Female,CityC,Sugar-Free,3,14.89,2.2,Online,Cash,44.67
+2025-02-10 00:00:00,1260,23,Male,CityA,Vitamin-Boost,7,9.03,2.6,Offline,Debit Card,63.21
+2025-02-11 00:00:00,1036,26,Female,CityD,Classic,4,7.52,2.2,Online,Credit Card,30.08
+2025-02-11 00:00:00,1629,23,Male,CityB,Classic,1,6.77,2.8,Offline,Debit Card,6.77
+2025-02-11 00:00:00,1390,39,Female,CityB,Classic,10,13.49,2.4,Offline,Cash,134.9
+2025-02-11 00:00:00,1814,58,Female,CityD,Sugar-Free,9,10.86,4.2,Offline,UPI,97.74
+2025-02-12 00:00:00,1513,22,Female,CityC,Energy,8,9.75,3.7,Online,UPI,78
+2025-02-12 00:00:00,1601,31,Male,CityA,Energy,7,6.32,1.9,Online,Credit Card,44.24
+2025-02-12 00:00:00,1364,55,Female,CityD,Sugar-Free,8,9.11,3.6,Online,Debit Card,72.88
+2025-02-13 00:00:00,1982,51,Male,CityB,Classic,2,13.58,1.4,Offline,Debit Card,27.16
+2025-02-13 00:00:00,1481,25,Male,CityD,Energy,2,7.1,4.9,Online,Cash,14.2
+2025-02-13 00:00:00,1699,22,Female,CityC,Sugar-Free,6,8.57,2.2,Online,Credit Card,51.42
+2025-02-13 00:00:00,1798,32,Male,CityB,Energy,3,8.59,3.8,Offline,Cash,25.77
+2025-02-13 00:00:00,1230,50,Male,CityB,Vitamin-Boost,10,9.02,3,Online,Credit Card,90.2
+2025-02-13 00:00:00,1140,49,Male,CityD,Vitamin-Boost,7,9.35,1.4,Offline,Debit Card,65.45
+2025-02-14 00:00:00,1130,19,Male,CityD,Vitamin-Boost,10,8.93,4,Online,Credit Card,89.3
+2025-02-14 00:00:00,1516,26,Male,CityC,Energy,10,8.8,2.9,Offline,Cash,88
+2025-02-14 00:00:00,1680,56,Female,CityA,Vitamin-Boost,8,10.47,1.7,Online,UPI,83.76
+2025-02-14 00:00:00,1887,49,Male,CityD,Classic,8,8.65,3.3,Offline,Debit Card,69.2
+2025-02-15 00:00:00,1352,38,Male,CityB,Vitamin-Boost,8,6.62,3.5,Online,Credit Card,52.96
+2025-02-15 00:00:00,1119,32,Female,CityD,Sugar-Free,1,14.9,2.4,Online,Credit Card,14.9
+2025-02-15 00:00:00,1343,39,Male,CityC,Vitamin-Boost,5,14.92,3.9,Offline,Cash,74.6
+2025-02-15 00:00:00,1603,41,Female,CityB,Classic,10,7.97,1.4,Offline,Credit Card,79.7
+2025-02-15 00:00:00,1072,19,Female,CityD,Energy,8,12.82,4.3,Online,Credit Card,102.56
+2025-02-16 00:00:00,1488,47,Female,CityB,Vitamin-Boost,7,6.21,1.4,Online,UPI,43.47
+2025-02-16 00:00:00,1119,40,Male,CityD,Energy,7,10.47,4.2,Online,Cash,73.29
+2025-02-16 00:00:00,1890,48,Male,CityD,Energy,4,9.19,1.6,Online,Credit Card,36.76
+2025-02-16 00:00:00,1060,55,Female,CityD,Vitamin-Boost,2,5.07,3.5,Offline,Cash,10.14
+2025-02-16 00:00:00,1425,35,Male,CityC,Vitamin-Boost,5,14.19,4.6,Offline,Credit Card,70.95
+2025-02-16 00:00:00,1344,38,Female,CityB,Energy,10,6.95,2.7,Online,Cash,69.5
+2025-02-16 00:00:00,1003,21,Male,CityB,Classic,6,7.1,3.8,Offline,Debit Card,42.6
+2025-02-16 00:00:00,1557,38,Female,CityD,Vitamin-Boost,9,7.47,3.8,Offline,UPI,67.23
+2025-02-16 00:00:00,1747,48,Male,CityC,Energy,8,5.68,2.4,Offline,UPI,45.44
+2025-02-17 00:00:00,1410,28,Male,CityC,Sugar-Free,10,10.78,2.5,Online,UPI,107.8
+2025-02-17 00:00:00,1642,33,Male,CityA,Sugar-Free,3,10.23,3.8,Online,Cash,30.69
+2025-02-17 00:00:00,1421,40,Female,CityC,Classic,4,8.39,3.3,Online,Debit Card,33.56
+2025-02-17 00:00:00,1730,50,Male,CityB,Energy,9,13.97,4.1,Offline,UPI,125.73
+2025-02-17 00:00:00,1549,56,Female,CityD,Classic,8,5,1.8,Offline,Credit Card,40
+2025-02-17 00:00:00,1327,51,Female,CityD,Classic,9,5.98,3.3,Online,Credit Card,53.82
+2025-02-17 00:00:00,1317,40,Male,CityD,Energy,10,9.4,1.3,Online,Debit Card,94
+2025-02-17 00:00:00,1140,42,Male,CityB,Classic,2,14.51,3.3,Online,Cash,29.02
+2025-02-18 00:00:00,1696,32,Female,CityD,Sugar-Free,10,12.24,3.6,Online,UPI,122.4
+2025-02-18 00:00:00,1891,46,Male,CityC,Sugar-Free,3,9.75,2.9,Offline,Cash,29.25
+2025-02-18 00:00:00,1735,38,Male,CityA,Classic,10,6.59,4.4,Online,Cash,65.9
+2025-02-18 00:00:00,1041,19,Female,CityD,Sugar-Free,4,7.96,2.3,Online,Cash,31.84
+2025-02-18 00:00:00,1228,40,Male,CityA,Energy,10,11.46,4.5,Offline,Cash,114.6
+2025-02-19 00:00:00,1178,27,Male,CityD,Classic,6,8.24,1.3,Offline,Cash,49.44
+2025-02-19 00:00:00,1745,40,Male,CityD,Vitamin-Boost,8,14.93,1.1,Online,UPI,119.44
+2025-02-19 00:00:00,1144,49,Female,CityA,Vitamin-Boost,10,6.68,1.3,Offline,UPI,66.8
+2025-02-19 00:00:00,1951,48,Female,CityC,Sugar-Free,2,6.79,3,Offline,UPI,13.58
+2025-02-20 00:00:00,1462,27,Male,CityD,Vitamin-Boost,9,6.46,1.6,Offline,Debit Card,58.14
+2025-02-20 00:00:00,1348,48,Female,CityD,Energy,1,6.45,4.2,Offline,Credit Card,6.45
+2025-02-20 00:00:00,1279,52,Male,CityA,Energy,1,10.49,4.8,Online,Credit Card,10.49
+2025-02-20 00:00:00,1567,32,Male,CityB,Vitamin-Boost,8,5.56,3.3,Online,Credit Card,44.48
+2025-02-20 00:00:00,1294,38,Female,CityD,Energy,9,10.77,4.9,Online,UPI,96.93
+2025-02-20 00:00:00,1636,35,Female,CityC,Sugar-Free,4,11.01,2.1,Offline,Cash,44.04
+2025-02-20 00:00:00,1046,27,Male,CityD,Energy,3,5.13,4.3,Online,Cash,15.39
+2025-02-20 00:00:00,1419,47,Female,CityA,Classic,5,14.69,2.9,Online,Credit Card,73.45
+2025-02-21 00:00:00,1217,46,Female,CityA,Vitamin-Boost,3,10.86,1.9,Online,Cash,32.58
+2025-02-21 00:00:00,1920,22,Female,CityA,Energy,9,8.82,4.8,Online,Debit Card,79.38
+2025-02-21 00:00:00,1661,32,Male,CityB,Sugar-Free,4,10.87,4.6,Offline,Debit Card,43.48
+2025-02-21 00:00:00,1910,31,Male,CityA,Sugar-Free,10,9.01,4.5,Online,Cash,90.1
+2025-02-21 00:00:00,1654,19,Female,CityB,Energy,1,8.29,3.4,Offline,UPI,8.29
+2025-02-21 00:00:00,1108,30,Female,CityD,Energy,8,12.8,3.4,Online,Credit Card,102.4
+2025-02-22 00:00:00,1900,53,Male,CityD,Classic,10,13.14,3.4,Offline,Debit Card,131.4
+2025-02-22 00:00:00,1400,21,Female,CityB,Classic,10,7.52,3.9,Offline,Credit Card,75.2
+2025-02-22 00:00:00,1961,27,Female,CityB,Energy,10,9.84,2.6,Offline,Debit Card,98.4
+2025-02-22 00:00:00,1724,32,Male,CityC,Energy,7,14.29,1.5,Offline,Debit Card,100.03
+2025-02-22 00:00:00,1950,32,Female,CityC,Energy,8,10.4,1.7,Offline,Cash,83.2
+2025-02-22 00:00:00,1752,58,Female,CityB,Classic,4,13.21,2.5,Offline,Debit Card,52.84
+2025-02-22 00:00:00,1805,38,Female,CityD,Vitamin-Boost,6,8.38,2.3,Offline,Credit Card,50.28
+2025-02-22 00:00:00,1973,41,Male,CityC,Vitamin-Boost,10,11.8,3.2,Offline,Credit Card,118
+2025-02-23 00:00:00,1946,44,Male,CityD,Sugar-Free,10,11.05,2.6,Offline,Debit Card,110.5
+2025-02-23 00:00:00,1265,38,Male,CityD,Classic,10,8.75,1.2,Offline,Credit Card,87.5
+2025-02-23 00:00:00,1802,54,Female,CityB,Sugar-Free,3,14.55,1.5,Online,Cash,43.65
+2025-02-23 00:00:00,1014,50,Female,CityB,Vitamin-Boost,4,5.94,3.3,Online,UPI,23.76
+2025-02-23 00:00:00,1525,28,Male,CityB,Energy,10,7.08,1.2,Offline,Cash,70.8
+2025-02-23 00:00:00,1304,38,Male,CityA,Energy,8,10.99,2.3,Offline,Credit Card,87.92
+2025-02-23 00:00:00,1288,30,Female,CityB,Sugar-Free,10,11.5,4.5,Online,UPI,115
+2025-02-23 00:00:00,1734,28,Male,CityA,Sugar-Free,6,9.11,1.2,Offline,Credit Card,54.66
+2025-02-23 00:00:00,1002,40,Male,CityA,Sugar-Free,2,10.03,3.1,Offline,Cash,20.06
+2025-02-24 00:00:00,1441,18,Male,CityD,Sugar-Free,8,5.25,1.9,Online,UPI,42
+2025-02-24 00:00:00,1525,38,Female,CityA,Vitamin-Boost,5,10,3,Online,Credit Card,50
+2025-02-24 00:00:00,1365,46,Male,CityB,Sugar-Free,10,12.83,4.9,Online,Cash,128.3
+2025-02-24 00:00:00,1305,52,Female,CityA,Sugar-Free,10,6.19,3,Offline,Debit Card,61.9
+2025-02-25 00:00:00,1257,30,Male,CityA,Vitamin-Boost,5,13.12,2.1,Online,UPI,65.6
+2025-02-25 00:00:00,1169,38,Male,CityA,Vitamin-Boost,8,14.16,1.3,Offline,UPI,113.28
+2025-02-25 00:00:00,1671,46,Female,CityD,Energy,7,8.42,2.3,Online,UPI,58.94
+2025-02-25 00:00:00,1169,48,Female,CityC,Energy,10,7.57,2.8,Offline,Debit Card,75.7
+2025-02-25 00:00:00,1379,27,Female,CityD,Vitamin-Boost,10,13.19,3.9,Online,UPI,131.9
+2025-02-26 00:00:00,1980,52,Male,CityB,Classic,1,5.54,4,Online,Debit Card,5.54
+2025-02-26 00:00:00,1531,42,Male,CityB,Sugar-Free,6,9.1,1.3,Offline,Credit Card,54.6
+2025-02-26 00:00:00,1738,25,Male,CityA,Energy,10,12.39,2.9,Online,Credit Card,123.9
+2025-02-27 00:00:00,1822,52,Male,CityB,Vitamin-Boost,2,9.9,2.5,Online,Debit Card,19.8
+2025-02-27 00:00:00,1033,41,Female,CityD,Classic,10,10.14,1.2,Offline,Credit Card,101.4
+2025-02-27 00:00:00,1130,30,Male,CityB,Classic,6,11.45,2.9,Offline,UPI,68.7
+2025-02-27 00:00:00,1396,38,Female,CityB,Sugar-Free,3,5.73,2.4,Online,UPI,17.19
+2025-02-27 00:00:00,1873,56,Male,CityB,Classic,5,6.74,1.5,Online,Credit Card,33.7
+2025-02-27 00:00:00,1131,38,Female,CityB,Energy,9,9.26,3.3,Online,Credit Card,83.34
+2025-02-27 00:00:00,1780,23,Male,CityC,Vitamin-Boost,1,14.96,2.2,Online,Cash,14.96
+2025-02-27 00:00:00,1726,35,Female,CityD,Energy,3,8.96,3,Offline,Credit Card,26.88
+2025-02-27 00:00:00,1058,38,Male,CityA,Energy,10,11.75,2.1,Offline,Cash,117.5
+2025-02-28 00:00:00,1088,41,Female,CityC,Energy,5,11.64,1.4,Offline,Debit Card,58.2
+2025-02-28 00:00:00,1824,31,Male,CityC,Energy,8,8.39,3.8,Offline,UPI,67.12
+2025-02-28 00:00:00,1570,28,Female,CityB,Classic,2,9.93,5,Offline,Cash,19.86
+2025-02-28 00:00:00,1241,31,Female,CityC,Vitamin-Boost,3,7.42,1.1,Offline,Cash,22.26
+2025-03-01 00:00:00,1236,56,Female,CityA,Classic,2,9.18,2.3,Online,Debit Card,18.36
+2025-03-01 00:00:00,1292,56,Male,CityB,Classic,7,13.66,2.5,Offline,Cash,95.62
+2025-03-01 00:00:00,1144,58,Male,CityA,Vitamin-Boost,10,11.98,1.2,Offline,Credit Card,119.8
+2025-03-01 00:00:00,1118,33,Female,CityC,Energy,10,7.25,3,Online,Cash,72.5
+2025-03-01 00:00:00,1560,38,Female,CityB,Vitamin-Boost,1,14.36,2.1,Online,Debit Card,14.36
+2025-03-02 00:00:00,1160,21,Female,CityD,Classic,10,10.95,2,Offline,UPI,109.5
+2025-03-02 00:00:00,1697,28,Male,CityD,Energy,6,11.9,2.8,Offline,Credit Card,71.4
+2025-03-02 00:00:00,1748,57,Female,CityC,Sugar-Free,4,7.98,2.3,Offline,Credit Card,31.92
+2025-03-02 00:00:00,1738,36,Male,CityB,Vitamin-Boost,3,7.04,4.2,Offline,Debit Card,21.12
+2025-03-02 00:00:00,1699,49,Female,CityC,Energy,5,14.52,1.4,Online,Credit Card,72.6
+2025-03-02 00:00:00,1766,23,Female,CityA,Classic,10,5.49,4.9,Online,UPI,54.9
+2025-03-03 00:00:00,1021,38,Male,CityC,Classic,5,8.42,2.8,Online,Cash,42.1
+2025-03-03 00:00:00,1152,44,Male,CityA,Sugar-Free,4,9.96,3,Offline,Credit Card,39.84
+2025-03-03 00:00:00,1626,29,Male,CityD,Classic,10,12.01,2.1,Online,Credit Card,120.1
+2025-03-03 00:00:00,1804,58,Female,CityD,Sugar-Free,10,11.41,4.5,Online,Debit Card,114.1
+2025-03-03 00:00:00,1345,25,Female,CityC,Vitamin-Boost,1,6.2,4.5,Offline,UPI,6.2
+2025-03-03 00:00:00,1935,58,Male,CityA,Energy,4,8.55,2.7,Online,Debit Card,34.2
+2025-03-03 00:00:00,1775,39,Female,CityB,Sugar-Free,7,6.47,4.3,Online,Debit Card,45.29
+2025-03-03 00:00:00,1526,37,Female,CityD,Classic,10,14.21,3,Offline,Cash,142.1
+2025-03-03 00:00:00,1878,20,Female,CityA,Energy,3,11.35,3,Online,UPI,34.05
+2025-03-04 00:00:00,1666,24,Female,CityD,Energy,8,12.6,2.1,Online,UPI,100.8
+2025-03-04 00:00:00,1814,25,Male,CityC,Vitamin-Boost,6,14.87,3.3,Online,Credit Card,89.22
+2025-03-04 00:00:00,1868,27,Female,CityC,Sugar-Free,10,11.58,3,Offline,UPI,115.8
+2025-03-04 00:00:00,1713,33,Female,CityB,Classic,4,10.2,3,Offline,Cash,40.8
+2025-03-04 00:00:00,1563,34,Male,CityD,Sugar-Free,6,13.76,2.1,Online,Credit Card,82.56
+2025-03-04 00:00:00,1355,41,Female,CityA,Vitamin-Boost,8,7.61,3.3,Offline,Cash,60.88
+2025-03-04 00:00:00,1362,27,Male,CityD,Vitamin-Boost,9,5.57,1.7,Offline,Debit Card,50.13
+2025-03-05 00:00:00,1796,36,Female,CityC,Energy,8,11.01,1.9,Online,Debit Card,88.08
+2025-03-05 00:00:00,1483,34,Female,CityA,Energy,7,14.77,3.6,Offline,Credit Card,103.39
+2025-03-05 00:00:00,1799,35,Female,CityC,Energy,10,5.69,3.4,Offline,Debit Card,56.9
+2025-03-06 00:00:00,1975,22,Male,CityA,Vitamin-Boost,4,9.36,4.4,Offline,UPI,37.44
+2025-03-06 00:00:00,1619,37,Male,CityC,Energy,9,7.49,3,Offline,Debit Card,67.41
+2025-03-06 00:00:00,1490,44,Female,CityD,Energy,6,7.39,4.3,Offline,Debit Card,44.34
+2025-03-06 00:00:00,1634,23,Male,CityB,Energy,1,11.07,1.6,Online,Cash,11.07
+2025-03-06 00:00:00,1010,43,Male,CityA,Energy,10,5.68,3.6,Offline,Credit Card,56.8
+2025-03-06 00:00:00,1255,21,Male,CityD,Sugar-Free,8,8.34,3.2,Online,Debit Card,66.72
+2025-03-07 00:00:00,1323,37,Female,CityB,Vitamin-Boost,10,10.83,2.6,Online,UPI,108.3
+2025-03-07 00:00:00,1579,41,Male,CityD,Sugar-Free,5,5.4,3.4,Online,Credit Card,27
+2025-03-07 00:00:00,1505,44,Male,CityC,Vitamin-Boost,10,11.92,2.5,Offline,Debit Card,119.2
+2025-03-07 00:00:00,1226,27,Male,CityC,Vitamin-Boost,10,13.7,1.6,Offline,Cash,137
+2025-03-08 00:00:00,1243,22,Female,CityB,Energy,8,11.75,1.3,Online,Debit Card,94
+2025-03-08 00:00:00,1413,38,Male,CityA,Sugar-Free,4,12.49,4.1,Offline,Credit Card,49.96
+2025-03-08 00:00:00,1943,25,Male,CityA,Energy,6,9.15,2.4,Offline,Credit Card,54.9
+2025-03-08 00:00:00,1164,49,Female,CityA,Sugar-Free,8,5.77,3.8,Offline,Credit Card,46.16
+2025-03-09 00:00:00,1474,20,Male,CityB,Vitamin-Boost,7,12.34,2.9,Offline,Debit Card,86.38
+2025-03-09 00:00:00,1284,36,Male,CityA,Sugar-Free,8,14.3,1.4,Online,Cash,114.4
+2025-03-09 00:00:00,1325,52,Male,CityD,Classic,5,7.04,4.8,Online,Cash,35.2
+2025-03-09 00:00:00,1263,50,Female,CityB,Sugar-Free,10,6.85,3,Online,UPI,68.5
+2025-03-10 00:00:00,1186,43,Female,CityD,Classic,10,5.2,2.5,Online,Cash,52
+2025-03-10 00:00:00,1933,54,Female,CityD,Classic,10,8.36,3,Online,UPI,83.6
+2025-03-10 00:00:00,1028,59,Female,CityA,Sugar-Free,5,7.83,4.3,Online,Debit Card,39.15
+2025-03-10 00:00:00,1938,27,Male,CityA,Energy,8,13.72,3,Online,Credit Card,109.76
+2025-03-10 00:00:00,1820,38,Female,CityD,Energy,7,13.91,3.6,Offline,Credit Card,97.37
+2025-03-10 00:00:00,1037,19,Male,CityD,Classic,5,8.56,3.9,Offline,Debit Card,42.8
+2025-03-10 00:00:00,1633,38,Male,CityB,Sugar-Free,6,6.99,1.5,Offline,Credit Card,41.94
+2025-03-10 00:00:00,1537,26,Female,CityA,Classic,10,8.13,4.3,Online,UPI,81.3
+2025-03-11 00:00:00,1114,42,Male,CityA,Vitamin-Boost,8,14.07,3.7,Online,Debit Card,112.56
+2025-03-11 00:00:00,1935,53,Female,CityB,Sugar-Free,6,10.44,1.6,Online,UPI,62.64
+2025-03-11 00:00:00,1215,39,Female,CityD,Vitamin-Boost,2,5.06,3.5,Online,Cash,10.12
+2025-03-11 00:00:00,1024,25,Female,CityA,Sugar-Free,10,14.08,1.1,Offline,Credit Card,140.8
+2025-03-11 00:00:00,1481,35,Male,CityA,Energy,4,9.35,4.4,Offline,Credit Card,37.4
+2025-03-11 00:00:00,1917,48,Female,CityD,Classic,4,11,4.7,Online,Cash,44
+2025-03-12 00:00:00,1097,42,Female,CityD,Sugar-Free,5,12.76,3,Online,Credit Card,63.8
+2025-03-12 00:00:00,1682,54,Male,CityD,Classic,8,11.14,2.9,Online,Credit Card,89.12
+2025-03-12 00:00:00,1864,56,Male,CityB,Energy,10,7.4,3,Online,Credit Card,74
+2025-03-13 00:00:00,1572,25,Male,CityA,Energy,10,7.84,4.4,Online,UPI,78.4
+2025-03-13 00:00:00,1323,38,Female,CityA,Classic,10,8.15,4.7,Online,UPI,81.5
+2025-03-13 00:00:00,1917,42,Male,CityC,Energy,8,7.33,1.4,Offline,Cash,58.64
+2025-03-14 00:00:00,1083,30,Male,CityD,Sugar-Free,10,7.77,3,Online,Cash,77.7
+2025-03-14 00:00:00,1022,49,Female,CityD,Energy,5,9.07,2.9,Online,Cash,45.35
+2025-03-14 00:00:00,1362,58,Male,CityA,Energy,10,10.54,4.7,Online,Debit Card,105.4
+2025-03-15 00:00:00,1506,25,Female,CityA,Energy,3,8.13,1.5,Online,Debit Card,24.39
+2025-03-15 00:00:00,1983,57,Female,CityA,Classic,3,8.35,2.7,Online,UPI,25.05
+2025-03-15 00:00:00,1388,33,Female,CityA,Classic,8,14.94,5,Offline,Debit Card,119.52
+2025-03-15 00:00:00,1826,38,Female,CityD,Classic,10,13.29,3.3,Offline,Credit Card,132.9
+2025-03-16 00:00:00,1050,23,Male,CityC,Sugar-Free,9,8.16,1,Online,UPI,73.44
+2025-03-16 00:00:00,1882,35,Male,CityB,Energy,10,12.2,3.5,Offline,Debit Card,122
+2025-03-16 00:00:00,1704,21,Male,CityA,Energy,2,10.74,3.2,Offline,Credit Card,21.48
+2025-03-16 00:00:00,1947,55,Female,CityD,Energy,10,5.88,4.8,Offline,Credit Card,58.8
+2025-03-16 00:00:00,1909,34,Male,CityB,Classic,4,7.74,3.5,Online,Credit Card,30.96
+2025-03-16 00:00:00,1839,32,Female,CityB,Classic,10,5.6,3,Online,UPI,56
+2025-03-16 00:00:00,1423,55,Female,CityC,Energy,10,5.48,4.8,Offline,Cash,54.8
+2025-03-16 00:00:00,1228,48,Male,CityA,Sugar-Free,5,7.32,3.7,Online,Debit Card,36.6
+2025-03-17 00:00:00,1839,47,Male,CityA,Energy,3,11.04,1.4,Online,Credit Card,33.12
+2025-03-17 00:00:00,1536,31,Female,CityD,Sugar-Free,7,13.02,1.7,Offline,Credit Card,91.14
+2025-03-17 00:00:00,1684,54,Female,CityA,Classic,8,9.3,1.1,Offline,Debit Card,74.4
+2025-03-17 00:00:00,1523,21,Female,CityA,Vitamin-Boost,6,10.18,1.1,Offline,Cash,61.08
+2025-03-18 00:00:00,1686,28,Female,CityC,Energy,10,14.23,4.5,Offline,Debit Card,142.3
+2025-03-19 00:00:00,1516,19,Male,CityB,Vitamin-Boost,6,13.6,2.7,Offline,Cash,81.6
+2025-03-19 00:00:00,1956,27,Female,CityA,Sugar-Free,6,10.53,3,Offline,UPI,63.18
+2025-03-19 00:00:00,1669,44,Male,CityC,Sugar-Free,7,9.89,2.6,Online,Credit Card,69.23
+2025-03-19 00:00:00,1815,47,Male,CityA,Energy,10,12.42,1.9,Offline,Debit Card,124.2
+2025-03-20 00:00:00,1331,47,Male,CityD,Energy,10,8.43,4.5,Offline,Cash,84.3
+2025-03-20 00:00:00,1459,37,Female,CityD,Sugar-Free,10,13.48,1.3,Online,UPI,134.8
+2025-03-20 00:00:00,1078,38,Male,CityC,Energy,9,6.96,2.8,Online,Credit Card,62.64
+2025-03-20 00:00:00,1540,36,Male,CityB,Energy,8,12.64,2.3,Online,UPI,101.12
+2025-03-21 00:00:00,1315,27,Female,CityC,Classic,10,11.43,2,Offline,Credit Card,114.3
+2025-03-21 00:00:00,1813,36,Male,CityC,Vitamin-Boost,6,5,3.6,Offline,Credit Card,30
+2025-03-21 00:00:00,1309,56,Female,CityD,Sugar-Free,9,10.65,3.8,Online,Credit Card,95.85
+2025-03-22 00:00:00,1006,28,Female,CityB,Energy,8,12.38,3,Offline,UPI,99.04
+2025-03-22 00:00:00,1578,37,Male,CityC,Classic,4,5.16,2.5,Offline,Debit Card,20.64
+2025-03-22 00:00:00,1312,42,Male,CityA,Vitamin-Boost,8,5.61,2.9,Online,Cash,44.88
+2025-03-22 00:00:00,1016,55,Male,CityA,Energy,10,14.66,1.2,Online,Debit Card,146.6
+2025-03-22 00:00:00,1039,55,Male,CityC,Energy,9,14.38,1,Online,Debit Card,129.42
+2025-03-22 00:00:00,1876,45,Female,CityA,Classic,8,10.32,1.1,Online,Debit Card,82.56
+2025-03-23 00:00:00,1048,26,Female,CityA,Classic,10,13.29,4.5,Offline,UPI,132.9
+2025-03-23 00:00:00,1634,28,Female,CityC,Energy,8,14.48,1.8,Offline,Credit Card,115.84
+2025-03-23 00:00:00,1186,44,Male,CityA,Energy,7,12.06,2.1,Online,Credit Card,84.42
+2025-03-23 00:00:00,1996,38,Male,CityA,Sugar-Free,10,7.54,3.7,Offline,Debit Card,75.4
+2025-03-23 00:00:00,1677,29,Male,CityD,Sugar-Free,2,10.41,3.1,Online,Credit Card,20.82
+2025-03-24 00:00:00,1221,30,Male,CityB,Sugar-Free,10,12.07,4.4,Online,UPI,120.7
+2025-03-24 00:00:00,1158,52,Male,CityA,Classic,10,11.79,3.8,Online,Cash,117.9
+2025-03-24 00:00:00,1258,26,Male,CityA,Sugar-Free,9,5.78,2.4,Offline,Credit Card,52.02
+2025-03-24 00:00:00,1570,58,Female,CityC,Classic,1,11.62,4.4,Online,Cash,11.62
+2025-03-25 00:00:00,1663,50,Male,CityA,Sugar-Free,10,14.97,3.6,Offline,Debit Card,149.7
+2025-03-25 00:00:00,1377,51,Female,CityA,Energy,10,14.11,2.6,Online,Cash,141.1
+2025-03-25 00:00:00,1990,35,Female,CityB,Classic,10,11.9,4,Offline,Cash,119
+2025-03-25 00:00:00,1370,43,Male,CityB,Energy,1,13,1.1,Online,Credit Card,13
+2025-03-25 00:00:00,1974,26,Male,CityC,Vitamin-Boost,10,11.36,2.8,Offline,Debit Card,113.6
+2025-03-25 00:00:00,1302,33,Male,CityB,Vitamin-Boost,8,5.85,2.6,Offline,UPI,46.8
+2025-03-25 00:00:00,1615,34,Female,CityC,Classic,2,7.96,2.4,Offline,Cash,15.92
+2025-03-26 00:00:00,1152,49,Female,CityC,Sugar-Free,10,9.17,1.1,Offline,Debit Card,91.7
+2025-03-26 00:00:00,1773,18,Male,CityA,Sugar-Free,5,7.47,3.5,Online,Credit Card,37.35
+2025-03-26 00:00:00,1362,42,Female,CityA,Classic,10,9.26,1.6,Online,UPI,92.6
+2025-03-26 00:00:00,1088,41,Male,CityA,Classic,3,8.77,4.5,Online,Cash,26.31
+2025-03-27 00:00:00,1080,56,Male,CityA,Energy,8,11.83,4.4,Online,UPI,94.64
+2025-03-27 00:00:00,1222,25,Female,CityD,Vitamin-Boost,4,9.5,3,Offline,Credit Card,38
+2025-03-27 00:00:00,1459,21,Male,CityA,Energy,4,13.98,1.7,Online,Debit Card,55.92
+2025-03-27 00:00:00,1475,24,Female,CityD,Classic,7,6.81,3,Online,Cash,47.67
+2025-03-27 00:00:00,1187,35,Male,CityD,Vitamin-Boost,2,14.42,4.7,Online,Cash,28.84
+2025-03-27 00:00:00,1127,19,Male,CityC,Vitamin-Boost,10,6.33,4.1,Online,Cash,63.3
+2025-03-27 00:00:00,1363,45,Female,CityA,Sugar-Free,10,9.16,4.9,Online,Cash,91.6
+2025-03-27 00:00:00,1771,52,Male,CityA,Classic,10,14.05,4.3,Offline,UPI,140.5
+2025-03-27 00:00:00,1084,43,Female,CityA,Sugar-Free,1,12.29,2.6,Online,Credit Card,12.29
+2025-03-28 00:00:00,1574,22,Female,CityB,Vitamin-Boost,10,6.51,2.2,Offline,UPI,65.1
+2025-03-29 00:00:00,1805,49,Male,CityD,Vitamin-Boost,4,8.15,1.8,Online,Debit Card,32.6
+2025-03-29 00:00:00,1778,44,Male,CityC,Vitamin-Boost,1,6.31,4.1,Offline,Credit Card,6.31
+2025-03-29 00:00:00,1004,47,Female,CityA,Sugar-Free,10,9.65,2.8,Online,Credit Card,96.5
+2025-03-30 00:00:00,1167,22,Female,CityA,Vitamin-Boost,5,6.96,1.5,Online,Cash,34.8
+2025-03-30 00:00:00,1748,39,Female,CityB,Vitamin-Boost,8,6.75,2.3,Offline,Credit Card,54
+2025-03-30 00:00:00,1664,55,Male,CityA,Vitamin-Boost,1,10.25,4.7,Offline,UPI,10.25
+2025-03-30 00:00:00,1841,26,Female,CityD,Sugar-Free,4,8.89,4.9,Offline,Debit Card,35.56
+2025-03-31 00:00:00,1700,31,Male,CityD,Sugar-Free,1,10.16,3,Offline,Credit Card,10.16
+2025-03-31 00:00:00,1022,38,Female,CityC,Sugar-Free,2,9.78,2.5,Offline,UPI,19.56
+2025-03-31 00:00:00,1615,47,Male,CityC,Energy,7,10.75,2.2,Online,Cash,75.25
+2025-03-31 00:00:00,1270,48,Male,CityD,Vitamin-Boost,10,10.32,2.4,Online,Credit Card,103.2
+2025-03-31 00:00:00,1640,34,Female,CityA,Classic,5,8.94,2.7,Online,Credit Card,44.7
+2025-03-31 00:00:00,1016,33,Female,CityD,Classic,9,7.88,1.9,Offline,Debit Card,70.92
+2025-03-31 00:00:00,1160,54,Male,CityC,Classic,9,10.96,1.1,Offline,Credit Card,98.64
+2025-03-31 00:00:00,1526,52,Male,CityB,Energy,9,9.41,4,Offline,UPI,84.69
+2025-03-31 00:00:00,1145,38,Male,CityD,Classic,10,10.09,4.1,Online,Debit Card,100.9
+2025-03-31 00:00:00,1961,39,Female,CityC,Classic,3,11.76,3.4,Online,Credit Card,35.28
+2025-03-31 00:00:00,1091,49,Male,CityC,Classic,10,14.26,1.4,Offline,Cash,142.6
+2025-04-01 00:00:00,1648,24,Female,CityD,Sugar-Free,8,6.09,3,Online,Cash,48.72
+2025-04-01 00:00:00,1038,20,Female,CityA,Vitamin-Boost,1,10.21,3.4,Online,UPI,10.21
+2025-04-02 00:00:00,1461,38,Female,CityD,Sugar-Free,2,12.67,3.6,Offline,UPI,25.34
+2025-04-02 00:00:00,1858,26,Male,CityA,Vitamin-Boost,10,5.81,2,Offline,Credit Card,58.1
+2025-04-02 00:00:00,1449,49,Female,CityB,Energy,4,11.49,4.6,Online,Cash,45.96
+2025-04-02 00:00:00,1933,25,Male,CityC,Classic,6,10.99,3.1,Online,Cash,65.94
+2025-04-02 00:00:00,1669,56,Female,CityD,Sugar-Free,8,9.44,4.2,Online,Credit Card,75.52
+2025-04-02 00:00:00,1889,25,Male,CityA,Sugar-Free,10,13.88,4.7,Offline,Credit Card,138.8
+2025-04-02 00:00:00,1103,29,Female,CityC,Energy,2,5.01,4.4,Online,Cash,10.02
+2025-04-02 00:00:00,1866,31,Male,CityA,Classic,4,13.66,3.8,Offline,Credit Card,54.64
+2025-04-03 00:00:00,1060,51,Female,CityB,Classic,10,11.72,4.7,Offline,Credit Card,117.2
+2025-04-03 00:00:00,1966,29,Female,CityC,Vitamin-Boost,10,8.96,3,Online,Debit Card,89.6
+2025-04-03 00:00:00,1317,49,Female,CityD,Classic,5,8.43,3.3,Offline,Cash,42.15
+2025-04-03 00:00:00,1512,33,Male,CityD,Classic,10,12.69,2.9,Offline,Cash,126.9
+2025-04-03 00:00:00,1987,34,Male,CityC,Energy,2,12.84,3.9,Online,Cash,25.68
+2025-04-03 00:00:00,1287,24,Male,CityC,Classic,10,8.58,2,Online,Cash,85.8
+2025-04-03 00:00:00,1905,39,Male,CityA,Classic,8,13.1,3.1,Online,Credit Card,104.8
+2025-04-04 00:00:00,1493,37,Male,CityC,Classic,4,10.7,3.9,Online,UPI,42.8
+2025-04-04 00:00:00,1355,25,Female,CityA,Classic,10,8.28,4.9,Offline,Credit Card,82.8
+2025-04-04 00:00:00,1256,43,Male,CityB,Classic,3,12.37,2,Online,Credit Card,37.11
+2025-04-04 00:00:00,1032,46,Male,CityC,Sugar-Free,10,12.07,4.3,Offline,Debit Card,120.7
+2025-04-04 00:00:00,1575,26,Male,CityD,Energy,2,8.06,4.2,Offline,Cash,16.12
+2025-04-04 00:00:00,1473,37,Male,CityA,Vitamin-Boost,4,11.48,3,Online,UPI,45.92
+2025-04-04 00:00:00,1885,38,Male,CityC,Classic,2,14.75,1.1,Online,Credit Card,29.5
+2025-04-05 00:00:00,1687,38,Female,CityC,Vitamin-Boost,9,11.01,4.5,Online,UPI,99.09
+2025-04-05 00:00:00,1569,22,Female,CityA,Classic,10,5.37,4.2,Online,Cash,53.7
+2025-04-05 00:00:00,1119,27,Male,CityA,Sugar-Free,7,5.68,1.3,Online,Cash,39.76
+2025-04-05 00:00:00,1752,39,Female,CityA,Vitamin-Boost,10,6.99,3,Online,Debit Card,69.9
+2025-04-05 00:00:00,1156,39,Male,CityA,Sugar-Free,10,6.18,2.2,Offline,Debit Card,61.8
+2025-04-05 00:00:00,1106,55,Female,CityD,Vitamin-Boost,10,11.35,1.7,Offline,Debit Card,113.5
+2025-04-05 00:00:00,1813,38,Female,CityB,Classic,1,11.84,4.6,Online,Debit Card,11.84
+2025-04-05 00:00:00,1500,23,Male,CityC,Vitamin-Boost,1,8.03,2.4,Offline,Credit Card,8.03
+2025-04-06 00:00:00,1949,54,Female,CityA,Classic,10,11.58,2.9,Offline,Cash,115.8
+2025-04-06 00:00:00,1824,36,Female,CityC,Energy,1,10.51,1.4,Online,Credit Card,10.51
+2025-04-06 00:00:00,1062,45,Male,CityB,Energy,10,12.55,4,Offline,Cash,125.5
+2025-04-06 00:00:00,1395,52,Male,CityA,Sugar-Free,2,6.05,4.8,Online,UPI,12.1
+2025-04-06 00:00:00,1140,32,Female,CityD,Vitamin-Boost,10,10.44,2.3,Online,UPI,104.4
+2025-04-06 00:00:00,1675,36,Female,CityA,Classic,10,12.99,1.5,Offline,UPI,129.9
+2025-04-06 00:00:00,1816,33,Female,CityC,Classic,10,8.77,2.8,Offline,Debit Card,87.7
+2025-04-06 00:00:00,1300,48,Female,CityC,Vitamin-Boost,2,6.1,2.9,Online,Debit Card,12.2
+2025-04-07 00:00:00,1983,21,Male,CityA,Sugar-Free,10,13.78,3.6,Online,Cash,137.8
+2025-04-07 00:00:00,1181,22,Female,CityC,Classic,10,5.79,1.7,Offline,Credit Card,57.9
+2025-04-08 00:00:00,1574,51,Male,CityC,Vitamin-Boost,5,5.6,4.9,Offline,UPI,28
+2025-04-08 00:00:00,1875,47,Male,CityC,Sugar-Free,10,8.45,1.4,Online,UPI,84.5
+2025-04-08 00:00:00,1499,21,Female,CityD,Sugar-Free,10,5.6,1.9,Offline,Debit Card,56
+2025-04-08 00:00:00,1322,53,Male,CityC,Classic,10,8.92,1.9,Offline,Debit Card,89.2
+2025-04-09 00:00:00,1046,18,Male,CityB,Energy,5,13.59,2.3,Online,Cash,67.95
+2025-04-09 00:00:00,1193,47,Male,CityC,Sugar-Free,7,13.26,2.8,Offline,Debit Card,92.82
+2025-04-09 00:00:00,1931,29,Male,CityB,Sugar-Free,3,13.73,3.8,Offline,Credit Card,41.19
+2025-04-09 00:00:00,1011,18,Male,CityD,Sugar-Free,6,13.75,2,Online,UPI,82.5
+2025-04-09 00:00:00,1802,38,Male,CityD,Classic,10,6.27,4.5,Offline,Credit Card,62.7
+2025-04-09 00:00:00,1951,55,Female,CityD,Classic,8,7.8,2,Offline,Credit Card,62.4
+2025-04-09 00:00:00,1884,57,Female,CityB,Classic,4,7.98,3,Online,Credit Card,31.92
+2025-04-09 00:00:00,1522,38,Male,CityD,Vitamin-Boost,1,12.82,4.4,Offline,Debit Card,12.82
+2025-04-09 00:00:00,1030,46,Male,CityC,Classic,10,7.27,3.7,Online,UPI,72.7
+2025-04-09 00:00:00,1043,37,Male,CityD,Classic,10,6.83,4.6,Offline,Debit Card,68.3
+2025-04-09 00:00:00,1341,54,Female,CityA,Energy,6,12.22,2.1,Online,UPI,73.32
+2025-04-09 00:00:00,1490,36,Female,CityD,Sugar-Free,10,14.49,4.9,Offline,UPI,144.9
+2025-04-09 00:00:00,1665,24,Female,CityA,Energy,10,12.42,4.9,Online,Credit Card,124.2
+2025-04-10 00:00:00,1975,29,Female,CityD,Classic,9,10.11,1.4,Online,UPI,90.99
+2025-04-10 00:00:00,1148,56,Female,CityD,Vitamin-Boost,10,9,3.5,Online,Credit Card,90
+2025-04-10 00:00:00,1228,20,Female,CityB,Sugar-Free,4,13.49,3.3,Offline,UPI,53.96
+2025-04-10 00:00:00,1129,45,Female,CityD,Sugar-Free,7,12.28,1.5,Online,Debit Card,85.96
+2025-04-10 00:00:00,1818,52,Male,CityA,Energy,9,5.82,3.1,Offline,Debit Card,52.38
+2025-04-11 00:00:00,1954,20,Female,CityC,Vitamin-Boost,3,9.38,2.9,Offline,UPI,28.14
+2025-04-11 00:00:00,1520,24,Female,CityD,Vitamin-Boost,10,8.55,3.8,Offline,UPI,85.5
+2025-04-11 00:00:00,1277,39,Male,CityB,Classic,4,6.23,1.2,Offline,UPI,24.92
+2025-04-11 00:00:00,1201,23,Male,CityB,Sugar-Free,8,9.42,3,Offline,Cash,75.36
+2025-04-11 00:00:00,1282,53,Female,CityA,Sugar-Free,7,6.87,4.2,Offline,Credit Card,48.09
+2025-04-11 00:00:00,1704,24,Male,CityD,Vitamin-Boost,9,9.61,2.8,Online,UPI,86.49
+2025-04-11 00:00:00,1291,38,Male,CityD,Classic,1,6.72,1.4,Offline,Credit Card,6.72
+2025-04-11 00:00:00,1523,33,Male,CityD,Classic,3,12.51,1.2,Offline,Credit Card,37.53
+2025-04-11 00:00:00,1466,30,Female,CityB,Sugar-Free,5,13.59,4.9,Offline,Debit Card,67.95
+2025-04-12 00:00:00,1989,21,Female,CityD,Energy,10,5.54,3.8,Online,Cash,55.4
+2025-04-12 00:00:00,1824,38,Male,CityD,Energy,10,5.71,1.4,Online,Debit Card,57.1
+2025-04-13 00:00:00,1609,37,Male,CityC,Vitamin-Boost,8,14.54,1.6,Offline,Debit Card,116.32
+2025-04-13 00:00:00,1831,46,Male,CityB,Sugar-Free,8,12.47,2,Online,UPI,99.76
+2025-04-13 00:00:00,1813,50,Female,CityD,Classic,8,9.12,3.9,Offline,Debit Card,72.96
+2025-04-13 00:00:00,1871,35,Male,CityB,Vitamin-Boost,7,6.96,4.9,Online,Debit Card,48.72
+2025-04-13 00:00:00,1994,35,Female,CityD,Vitamin-Boost,10,9.29,3.5,Offline,Cash,92.9
+2025-04-13 00:00:00,1200,24,Male,CityB,Energy,10,10.76,2.2,Online,UPI,107.6
+2025-04-14 00:00:00,1592,19,Female,CityD,Vitamin-Boost,10,9.69,3.5,Offline,Cash,96.9
+2025-04-14 00:00:00,1284,43,Female,CityA,Vitamin-Boost,5,12.98,3.9,Online,UPI,64.9
+2025-04-14 00:00:00,1966,54,Female,CityD,Energy,10,12.83,4.6,Offline,Debit Card,128.3
+2025-04-14 00:00:00,1967,57,Female,CityB,Vitamin-Boost,8,11.65,3.7,Offline,Debit Card,93.2
+2025-04-14 00:00:00,1977,31,Female,CityA,Classic,5,5.24,2.3,Online,Credit Card,26.2
+2025-04-14 00:00:00,1793,42,Male,CityD,Classic,10,12.3,3,Offline,Cash,123
+2025-04-14 00:00:00,1589,18,Female,CityD,Classic,2,8.53,3.2,Offline,Credit Card,17.06
+2025-04-14 00:00:00,1269,46,Female,CityD,Energy,10,5.45,1.5,Offline,Debit Card,54.5
+2025-04-15 00:00:00,1492,32,Male,CityC,Energy,1,9.22,2.1,Offline,Credit Card,9.22
+2025-04-15 00:00:00,1038,53,Female,CityB,Energy,10,8.12,4.9,Offline,Credit Card,81.2
+2025-04-15 00:00:00,1309,35,Male,CityC,Sugar-Free,10,7.98,4.7,Offline,Credit Card,79.8
+2025-04-15 00:00:00,1317,47,Male,CityA,Classic,10,8.02,3.2,Online,Cash,80.2
+2025-04-16 00:00:00,1622,50,Female,CityC,Energy,3,13.32,4.1,Online,UPI,39.96
+2025-04-16 00:00:00,1837,26,Male,CityD,Sugar-Free,10,12.96,2.1,Offline,Cash,129.6
+2025-04-16 00:00:00,1520,25,Male,CityB,Vitamin-Boost,7,6.92,4,Online,UPI,48.44
+2025-04-17 00:00:00,1190,57,Female,CityB,Sugar-Free,1,8.72,3.7,Online,Debit Card,8.72
+2025-04-17 00:00:00,1319,25,Male,CityB,Classic,4,11.92,1.3,Offline,Cash,47.68
+2025-04-17 00:00:00,1961,40,Female,CityB,Sugar-Free,3,14.41,2.4,Offline,Credit Card,43.23
+2025-04-18 00:00:00,1280,30,Female,CityD,Classic,8,8.58,3.8,Offline,Credit Card,68.64
+2025-04-18 00:00:00,1982,18,Male,CityC,Classic,2,8.57,1.6,Online,Debit Card,17.14
+2025-04-18 00:00:00,1603,19,Female,CityB,Vitamin-Boost,6,10.56,2.7,Offline,Debit Card,63.36
+2025-04-18 00:00:00,1615,38,Female,CityC,Sugar-Free,8,10.64,4.9,Online,UPI,85.12
+2025-04-19 00:00:00,1454,51,Female,CityB,Energy,10,9.83,2.9,Online,Debit Card,98.3
+2025-04-19 00:00:00,1806,56,Female,CityC,Classic,5,13.28,2.5,Online,Credit Card,66.4
+2025-04-19 00:00:00,1994,31,Male,CityD,Sugar-Free,7,7.71,1.9,Offline,Cash,53.97
+2025-04-19 00:00:00,1277,59,Male,CityA,Vitamin-Boost,8,9.72,2.2,Offline,Debit Card,77.76
+2025-04-19 00:00:00,1323,31,Male,CityD,Energy,3,11.63,4.8,Online,Cash,34.89
+2025-04-19 00:00:00,1926,32,Male,CityD,Sugar-Free,4,14.1,3.7,Offline,UPI,56.4
+2025-04-19 00:00:00,1249,32,Female,CityB,Vitamin-Boost,6,9.75,1.8,Online,Credit Card,58.5
+2025-04-19 00:00:00,1390,30,Female,CityA,Classic,6,13.39,2.4,Offline,Cash,80.34
+2025-04-20 00:00:00,1772,46,Male,CityB,Sugar-Free,8,6.69,1.7,Online,Cash,53.52
+2025-04-20 00:00:00,1221,57,Male,CityD,Energy,10,14.58,3.2,Online,UPI,145.8
+2025-04-21 00:00:00,1232,27,Female,CityD,Vitamin-Boost,3,14.67,4.6,Online,Credit Card,44.01
+2025-04-21 00:00:00,1453,58,Female,CityD,Sugar-Free,10,7.37,4.3,Online,Cash,73.7
+2025-04-21 00:00:00,1410,43,Female,CityD,Energy,10,5.13,2.2,Online,Credit Card,51.3
+2025-04-21 00:00:00,1921,38,Male,CityB,Energy,9,12.52,1.1,Online,Debit Card,112.68
+2025-04-21 00:00:00,1442,36,Female,CityA,Classic,10,14.6,2.8,Offline,Debit Card,146
+2025-04-21 00:00:00,1830,44,Male,CityC,Energy,10,9.27,4.3,Online,UPI,92.7
+2025-04-21 00:00:00,1223,38,Female,CityA,Classic,7,12.15,1.3,Online,Debit Card,85.05
+2025-04-21 00:00:00,1946,49,Male,CityA,Classic,7,7.72,3.2,Online,UPI,54.04
+2025-04-21 00:00:00,1523,20,Female,CityB,Sugar-Free,10,8.63,3,Online,Credit Card,86.3
+2025-04-22 00:00:00,1780,25,Male,CityC,Sugar-Free,9,6.56,2.7,Offline,Cash,59.04
+2025-04-22 00:00:00,1174,27,Female,CityC,Vitamin-Boost,10,10.55,2,Online,Cash,105.5
+2025-04-22 00:00:00,1359,38,Male,CityB,Energy,10,10.81,2.1,Online,Debit Card,108.1
+2025-04-22 00:00:00,1400,38,Male,CityD,Energy,9,12.31,3.7,Offline,Cash,110.79
+2025-04-22 00:00:00,1660,25,Female,CityB,Energy,5,14.45,1.2,Online,Debit Card,72.25
+2025-04-23 00:00:00,1906,21,Female,CityC,Sugar-Free,3,6.65,4.2,Offline,Debit Card,19.95
+2025-04-23 00:00:00,1822,22,Female,CityB,Energy,8,7.49,2.7,Offline,UPI,59.92
+2025-04-23 00:00:00,1326,37,Male,CityA,Vitamin-Boost,8,11.72,2.6,Offline,Debit Card,93.76
+2025-04-23 00:00:00,1098,41,Female,CityA,Energy,1,5.53,1.5,Online,Credit Card,5.53
+2025-04-23 00:00:00,1310,45,Female,CityA,Sugar-Free,3,9.19,1.7,Offline,UPI,27.57
+2025-04-23 00:00:00,1338,23,Female,CityA,Classic,9,12.65,4.6,Offline,Debit Card,113.85
+2025-04-23 00:00:00,1018,22,Male,CityB,Classic,8,13.2,1.4,Offline,Cash,105.6
+2025-04-23 00:00:00,1334,58,Male,CityB,Sugar-Free,6,10.25,4.2,Online,Cash,61.5
+2025-04-23 00:00:00,1370,55,Male,CityA,Classic,6,9.52,3,Online,Cash,57.12
+2025-04-23 00:00:00,1136,56,Male,CityA,Energy,8,11.6,4.9,Online,Credit Card,92.8
+2025-04-23 00:00:00,1760,45,Male,CityD,Classic,6,9.65,4.1,Online,UPI,57.9
+2025-04-23 00:00:00,1435,34,Female,CityC,Energy,6,11.48,2.2,Online,Debit Card,68.88
+2025-04-23 00:00:00,1520,45,Male,CityB,Classic,4,14.35,1.2,Offline,Cash,57.4
+2025-04-23 00:00:00,1116,45,Male,CityC,Classic,10,13.14,4.4,Offline,Credit Card,131.4
+2025-04-24 00:00:00,1804,39,Male,CityC,Vitamin-Boost,7,11.95,4,Offline,Cash,83.65
+2025-04-24 00:00:00,1774,26,Male,CityB,Sugar-Free,6,5.98,1.8,Offline,UPI,35.88
+2025-04-24 00:00:00,1497,46,Male,CityC,Classic,10,12.45,2.4,Offline,UPI,124.5
+2025-04-25 00:00:00,1804,38,Male,CityB,Energy,10,8.46,4.6,Offline,Cash,84.6
+2025-04-25 00:00:00,1045,56,Female,CityD,Classic,5,13.05,3.7,Offline,UPI,65.25
+2025-04-25 00:00:00,1024,39,Female,CityA,Vitamin-Boost,8,10.04,1.3,Offline,Debit Card,80.32
+2025-04-25 00:00:00,1052,36,Female,CityA,Classic,1,13.33,3,Online,Credit Card,13.33
+2025-04-25 00:00:00,1086,50,Female,CityA,Vitamin-Boost,10,5.51,3,Offline,Credit Card,55.1
+2025-04-25 00:00:00,1913,58,Male,CityC,Sugar-Free,1,6.97,3.5,Offline,Debit Card,6.97
+2025-04-25 00:00:00,1717,39,Female,CityA,Classic,10,8.42,2.6,Online,Cash,84.2
+2025-04-26 00:00:00,1954,38,Male,CityD,Classic,3,10.77,1.2,Offline,UPI,32.31
+2025-04-26 00:00:00,1143,49,Female,CityA,Vitamin-Boost,9,9.43,4.2,Offline,Cash,84.87
+2025-04-26 00:00:00,1911,46,Female,CityB,Energy,10,6.43,2.8,Offline,Credit Card,64.3
+2025-04-26 00:00:00,1406,38,Female,CityC,Energy,9,12.56,3,Offline,UPI,113.04
+2025-04-26 00:00:00,1234,53,Female,CityC,Vitamin-Boost,2,10.53,2.8,Offline,Debit Card,21.06
+2025-04-27 00:00:00,1428,57,Male,CityC,Vitamin-Boost,10,8.92,4.9,Offline,UPI,89.2
+2025-04-27 00:00:00,1609,52,Female,CityB,Energy,10,5.23,3.6,Offline,Credit Card,52.3
+2025-04-27 00:00:00,1676,43,Male,CityC,Classic,10,5.06,3,Online,UPI,50.6
+2025-04-27 00:00:00,1872,24,Female,CityA,Vitamin-Boost,4,11.06,1.2,Online,Debit Card,44.24
+2025-04-27 00:00:00,1250,35,Male,CityB,Sugar-Free,10,8.21,2.2,Offline,UPI,82.1
+2025-04-27 00:00:00,1162,22,Male,CityC,Vitamin-Boost,2,12.41,2.2,Online,Credit Card,24.82
+2025-04-27 00:00:00,1376,52,Female,CityB,Classic,10,8.49,2.1,Offline,Cash,84.9
+2025-04-27 00:00:00,1876,38,Male,CityD,Classic,6,14.46,3.3,Online,Cash,86.76
+2025-04-27 00:00:00,1263,24,Female,CityD,Sugar-Free,8,5.77,2.8,Offline,Credit Card,46.16
+2025-04-28 00:00:00,1689,41,Female,CityB,Sugar-Free,10,10.45,1.7,Offline,Debit Card,104.5
+2025-04-28 00:00:00,1925,26,Male,CityA,Vitamin-Boost,10,11.21,2.8,Offline,Debit Card,112.1
+2025-04-28 00:00:00,1000,31,Female,CityA,Vitamin-Boost,9,10.06,1.3,Offline,Credit Card,90.54
+2025-04-28 00:00:00,1645,27,Female,CityA,Vitamin-Boost,10,10.21,4.2,Offline,UPI,102.1
+2025-04-28 00:00:00,1028,51,Male,CityB,Energy,10,14.15,1.8,Online,UPI,141.5
+2025-04-28 00:00:00,1028,24,Male,CityD,Energy,4,9.3,2,Online,Credit Card,37.2
+2025-04-28 00:00:00,1343,38,Female,CityD,Energy,10,7.34,1.9,Online,Credit Card,73.4
+2025-04-28 00:00:00,1737,48,Male,CityC,Classic,2,12.19,1.4,Online,UPI,24.38
+2025-04-28 00:00:00,1972,53,Female,CityA,Energy,10,11.96,3.7,Online,Debit Card,119.6
+2025-04-29 00:00:00,1112,54,Male,CityC,Vitamin-Boost,10,8.95,1.6,Online,Debit Card,89.5
+2025-04-29 00:00:00,1318,18,Male,CityC,Classic,6,8.08,3,Offline,Cash,48.48
+2025-04-29 00:00:00,1054,58,Male,CityA,Sugar-Free,1,8.98,4.1,Online,Cash,8.98
+2025-04-30 00:00:00,1041,27,Female,CityB,Energy,10,6.33,4.6,Online,Debit Card,63.3
+2025-04-30 00:00:00,1831,38,Male,CityB,Sugar-Free,1,9.85,1.7,Online,Debit Card,9.85
+2025-04-30 00:00:00,1428,18,Female,CityA,Vitamin-Boost,5,14.02,3.3,Online,Cash,70.1
+2025-04-30 00:00:00,1171,59,Female,CityC,Energy,10,7.69,3.9,Offline,UPI,76.9
+2025-05-01 00:00:00,1778,57,Female,CityD,Energy,10,8.96,2.7,Offline,Credit Card,89.6
+2025-05-01 00:00:00,1692,30,Female,CityB,Energy,8,6.66,3.1,Online,Debit Card,53.28
+2025-05-01 00:00:00,1296,20,Male,CityC,Energy,7,8.31,2.5,Online,Debit Card,58.17
+2025-05-01 00:00:00,1730,51,Male,CityB,Sugar-Free,6,13.39,1.2,Online,UPI,80.34
+2025-05-02 00:00:00,1442,38,Female,CityC,Energy,3,6.13,2.3,Online,UPI,18.39
+2025-05-02 00:00:00,1322,27,Male,CityD,Vitamin-Boost,9,8.16,3.9,Online,Debit Card,73.44
+2025-05-02 00:00:00,1628,38,Male,CityC,Sugar-Free,6,13.36,3.7,Online,Credit Card,80.16
+2025-05-02 00:00:00,1341,27,Male,CityA,Sugar-Free,3,9.72,4.7,Offline,Credit Card,29.16
+2025-05-02 00:00:00,1348,25,Female,CityD,Vitamin-Boost,10,7.19,1.8,Online,Credit Card,71.9
+2025-05-02 00:00:00,1375,54,Male,CityA,Classic,8,8.41,2,Online,UPI,67.28
+2025-05-03 00:00:00,1061,22,Male,CityD,Classic,7,11.91,3.5,Online,Cash,83.37
+2025-05-03 00:00:00,1710,43,Female,CityB,Vitamin-Boost,3,11.78,1.1,Offline,Debit Card,35.34
+2025-05-03 00:00:00,1417,31,Male,CityB,Energy,8,7.09,1.7,Offline,Cash,56.72
+2025-05-03 00:00:00,1156,33,Male,CityC,Classic,6,8.27,3.2,Online,UPI,49.62
+2025-05-04 00:00:00,1195,57,Female,CityA,Classic,8,10.66,1.9,Offline,UPI,85.28
+2025-05-04 00:00:00,1074,45,Male,CityA,Sugar-Free,10,10.67,3.3,Online,Credit Card,106.7
+2025-05-04 00:00:00,1663,37,Female,CityD,Sugar-Free,1,10.66,1.2,Offline,Credit Card,10.66
+2025-05-04 00:00:00,1288,38,Female,CityA,Sugar-Free,10,7.31,4.7,Offline,UPI,73.1
+2025-05-04 00:00:00,1345,20,Male,CityC,Classic,6,10.41,2.7,Offline,UPI,62.46
+2025-05-04 00:00:00,1095,32,Female,CityD,Sugar-Free,3,6.23,2,Online,UPI,18.69
+2025-05-05 00:00:00,1157,59,Female,CityB,Energy,7,14.97,1.3,Online,Debit Card,104.79
+2025-05-06 00:00:00,1286,53,Female,CityB,Classic,3,9.07,4.1,Online,Cash,27.21
+2025-05-06 00:00:00,1515,42,Female,CityC,Classic,10,10.08,2.6,Offline,Cash,100.8
+2025-05-06 00:00:00,1883,50,Male,CityA,Sugar-Free,5,11.17,3.9,Online,Credit Card,55.85
+2025-05-06 00:00:00,1175,21,Male,CityB,Classic,7,8.82,1.8,Online,Cash,61.74
+2025-05-06 00:00:00,1920,25,Female,CityB,Sugar-Free,7,7.5,2.2,Online,Cash,52.5
+2025-05-06 00:00:00,1601,29,Female,CityD,Classic,6,10.82,1.9,Offline,Cash,64.92
+2025-05-06 00:00:00,1865,18,Male,CityC,Energy,9,12.49,3.5,Offline,Cash,112.41
+2025-05-07 00:00:00,1393,19,Female,CityD,Energy,10,9.24,1.3,Online,UPI,92.4
+2025-05-07 00:00:00,1377,21,Male,CityD,Classic,10,12.35,3,Online,Debit Card,123.5
+2025-05-07 00:00:00,1015,42,Male,CityD,Sugar-Free,3,9.15,4.7,Offline,Credit Card,27.45
+2025-05-07 00:00:00,1623,19,Male,CityC,Energy,3,8.93,3.3,Online,Debit Card,26.79
+2025-05-08 00:00:00,1113,25,Male,CityB,Sugar-Free,10,9.14,2.2,Online,UPI,91.4
+2025-05-08 00:00:00,1881,31,Female,CityC,Vitamin-Boost,4,9.77,2.9,Offline,Debit Card,39.08
+2025-05-08 00:00:00,1028,56,Male,CityC,Classic,3,5.57,3.8,Online,Debit Card,16.71
+2025-05-08 00:00:00,1054,57,Male,CityC,Sugar-Free,8,11.79,3.9,Online,Cash,94.32
+2025-05-08 00:00:00,1161,19,Male,CityB,Energy,5,6.84,1.7,Online,Debit Card,34.2
+2025-05-08 00:00:00,1777,22,Male,CityC,Sugar-Free,9,11.67,3,Online,UPI,105.03
+2025-05-08 00:00:00,1181,52,Female,CityD,Sugar-Free,7,5.04,2.1,Online,UPI,35.28
+2025-05-08 00:00:00,1267,40,Male,CityB,Classic,5,14.52,1.2,Offline,Credit Card,72.6
+2025-05-09 00:00:00,1242,52,Male,CityB,Classic,6,8.2,4.2,Offline,Credit Card,49.2
+2025-05-09 00:00:00,1295,29,Female,CityB,Sugar-Free,7,12.02,1.2,Online,Debit Card,84.14
+2025-05-09 00:00:00,1908,58,Male,CityC,Sugar-Free,5,5.97,4.1,Online,UPI,29.85
+2025-05-09 00:00:00,1628,53,Female,CityC,Sugar-Free,8,14.41,2.9,Online,Credit Card,115.28
+2025-05-09 00:00:00,1848,37,Female,CityA,Classic,2,7.77,2.3,Online,Debit Card,15.54
+2025-05-09 00:00:00,1735,51,Female,CityD,Energy,8,13.1,1.2,Offline,Debit Card,104.8
+2025-05-09 00:00:00,1243,18,Male,CityB,Sugar-Free,3,9.77,4.1,Offline,UPI,29.31
+2025-05-09 00:00:00,1267,51,Male,CityC,Sugar-Free,10,13.62,4.3,Offline,UPI,136.2
+2025-05-10 00:00:00,1074,53,Male,CityB,Classic,8,9.01,1.7,Online,Cash,72.08
+2025-05-10 00:00:00,1936,52,Male,CityD,Vitamin-Boost,10,11.49,3,Online,Cash,114.9
+2025-05-10 00:00:00,1550,48,Male,CityC,Energy,10,8.52,3.9,Offline,UPI,85.2
+2025-05-10 00:00:00,1712,40,Male,CityD,Classic,7,12.66,3.8,Online,Cash,88.62
+2025-05-10 00:00:00,1914,38,Female,CityD,Classic,8,5.97,2,Online,Cash,47.76
+2025-05-10 00:00:00,1968,37,Female,CityC,Classic,9,9.15,3.2,Offline,Debit Card,82.35
+2025-05-10 00:00:00,1020,43,Female,CityD,Energy,10,6.86,3.1,Online,Cash,68.6
+2025-05-10 00:00:00,1077,34,Male,CityA,Energy,5,7.59,2.7,Offline,Credit Card,37.95
+2025-05-10 00:00:00,1439,28,Male,CityD,Energy,10,10.19,4.7,Offline,Cash,101.9
+2025-05-10 00:00:00,1820,58,Female,CityB,Sugar-Free,10,14.46,2,Online,UPI,144.6
+2025-05-11 00:00:00,1308,19,Female,CityA,Energy,10,8.87,1.2,Offline,Debit Card,88.7
+2025-05-11 00:00:00,1797,20,Female,CityC,Vitamin-Boost,10,8.41,1.2,Offline,Debit Card,84.1
+2025-05-11 00:00:00,1893,49,Female,CityA,Classic,4,13.2,3.6,Online,Debit Card,52.8
+2025-05-11 00:00:00,1659,46,Male,CityB,Classic,1,7.85,3,Offline,UPI,7.85
+2025-05-11 00:00:00,1031,33,Female,CityA,Classic,10,11.44,2.2,Offline,Debit Card,114.4
+2025-05-11 00:00:00,1703,54,Male,CityC,Sugar-Free,6,13.16,2.9,Online,Cash,78.96
+2025-05-11 00:00:00,1690,47,Female,CityD,Energy,10,5.9,3.8,Online,UPI,59
+2025-05-12 00:00:00,1804,42,Female,CityC,Vitamin-Boost,4,6.39,3,Offline,Credit Card,25.56
+2025-05-12 00:00:00,1553,49,Male,CityD,Sugar-Free,10,10.57,4.7,Offline,Cash,105.7
+2025-05-12 00:00:00,1394,34,Female,CityA,Vitamin-Boost,4,11.25,2.8,Online,Debit Card,45
+2025-05-12 00:00:00,1972,57,Female,CityC,Vitamin-Boost,10,7.04,1.8,Offline,Debit Card,70.4
+2025-05-12 00:00:00,1615,50,Female,CityB,Sugar-Free,8,7.34,4,Offline,UPI,58.72
+2025-05-12 00:00:00,1113,30,Female,CityC,Sugar-Free,1,13.01,2.4,Online,Credit Card,13.01
+2025-05-12 00:00:00,1992,38,Female,CityA,Vitamin-Boost,1,7.93,2.3,Offline,Credit Card,7.93
+2025-05-13 00:00:00,1518,59,Male,CityB,Vitamin-Boost,1,10.49,4.4,Online,Credit Card,10.49
+2025-05-13 00:00:00,1335,37,Female,CityA,Classic,10,6.23,1.5,Online,Cash,62.3
+2025-05-13 00:00:00,1536,49,Female,CityB,Energy,10,14.18,1.1,Online,Credit Card,141.8
+2025-05-13 00:00:00,1159,54,Male,CityD,Classic,1,12.96,5,Offline,UPI,12.96
+2025-05-13 00:00:00,1537,47,Female,CityA,Energy,10,11.67,2.7,Offline,Credit Card,116.7
+2025-05-13 00:00:00,1225,59,Male,CityA,Vitamin-Boost,10,6.24,3,Online,Debit Card,62.4
+2025-05-14 00:00:00,1021,23,Male,CityD,Sugar-Free,1,6.92,2.7,Online,Debit Card,6.92
+2025-05-14 00:00:00,1499,19,Female,CityA,Sugar-Free,5,6.35,3,Offline,Cash,31.75
+2025-05-14 00:00:00,1006,34,Male,CityC,Energy,7,6.82,3.5,Online,Cash,47.74
+2025-05-14 00:00:00,1139,19,Male,CityA,Classic,10,5.97,1.3,Offline,UPI,59.7
+2025-05-14 00:00:00,1758,46,Female,CityB,Sugar-Free,10,10.96,1.8,Offline,Debit Card,109.6
+2025-05-14 00:00:00,1839,53,Female,CityB,Vitamin-Boost,9,9.66,3,Online,Cash,86.94
+2025-05-15 00:00:00,1046,43,Male,CityD,Sugar-Free,10,11.82,1.5,Online,UPI,118.2
+2025-05-15 00:00:00,1802,22,Male,CityA,Sugar-Free,10,9.27,2.4,Online,Debit Card,92.7
+2025-05-15 00:00:00,1395,32,Female,CityD,Sugar-Free,2,8.99,4.8,Offline,Credit Card,17.98
+2025-05-15 00:00:00,1978,43,Male,CityD,Energy,10,9.42,2.5,Offline,UPI,94.2
+2025-05-15 00:00:00,1421,48,Female,CityA,Vitamin-Boost,10,8.41,3.5,Online,UPI,84.1
+2025-05-16 00:00:00,1215,37,Female,CityD,Vitamin-Boost,6,13.74,2.8,Offline,Cash,82.44
+2025-05-16 00:00:00,1927,54,Female,CityC,Classic,5,7.12,4,Online,UPI,35.6
+2025-05-16 00:00:00,1957,55,Female,CityD,Vitamin-Boost,3,13.61,4.6,Offline,UPI,40.83
+2025-05-16 00:00:00,1158,29,Male,CityB,Classic,10,6.77,2.7,Online,Debit Card,67.7
+2025-05-16 00:00:00,1151,35,Male,CityD,Vitamin-Boost,1,11.31,1.7,Online,Debit Card,11.31
+2025-05-16 00:00:00,1457,58,Female,CityA,Energy,4,5.8,3.4,Online,Credit Card,23.2
+2025-05-17 00:00:00,1269,38,Female,CityA,Classic,5,8.28,4.1,Online,Debit Card,41.4
+2025-05-17 00:00:00,1934,31,Female,CityC,Classic,1,8.63,4.4,Offline,Debit Card,8.63
+2025-05-17 00:00:00,1587,41,Female,CityB,Energy,3,5.24,2.3,Offline,Cash,15.72
+2025-05-17 00:00:00,1081,29,Male,CityA,Vitamin-Boost,2,10.47,1.4,Offline,Cash,20.94
+2025-05-17 00:00:00,1133,39,Female,CityB,Energy,5,14.63,3.9,Online,Debit Card,73.15
+2025-05-17 00:00:00,1404,43,Female,CityC,Vitamin-Boost,10,7.51,4.2,Offline,Credit Card,75.1
+2025-05-17 00:00:00,1792,23,Male,CityA,Sugar-Free,2,5.85,2.8,Offline,Credit Card,11.7
+2025-05-18 00:00:00,1466,49,Male,CityB,Classic,6,7.92,2.6,Online,Cash,47.52
+2025-05-18 00:00:00,1381,23,Female,CityC,Vitamin-Boost,10,10.29,3,Online,UPI,102.9
+2025-05-18 00:00:00,1865,34,Male,CityD,Sugar-Free,8,8.7,3.6,Offline,Cash,69.6
+2025-05-18 00:00:00,1954,48,Female,CityA,Vitamin-Boost,2,13.08,3.1,Online,UPI,26.16
+2025-05-18 00:00:00,1010,56,Male,CityA,Sugar-Free,4,11.49,1.2,Offline,UPI,45.96
+2025-05-19 00:00:00,1762,58,Female,CityB,Vitamin-Boost,3,13.03,3.9,Offline,UPI,39.09
+2025-05-19 00:00:00,1227,25,Male,CityC,Vitamin-Boost,8,9.44,1.1,Online,Cash,75.52
+2025-05-19 00:00:00,1799,35,Male,CityD,Sugar-Free,4,14.7,4.5,Online,Debit Card,58.8
+2025-05-20 00:00:00,1709,55,Female,CityA,Classic,10,6.2,4,Online,Credit Card,62
+2025-05-20 00:00:00,1989,46,Female,CityD,Classic,10,5.22,1.3,Online,UPI,52.2
+2025-05-20 00:00:00,1405,20,Male,CityB,Vitamin-Boost,6,7.87,5,Online,UPI,47.22
+2025-05-20 00:00:00,1598,36,Male,CityD,Energy,3,10.85,2,Online,Credit Card,32.55
+2025-05-20 00:00:00,1287,28,Male,CityA,Vitamin-Boost,1,6.32,2.4,Online,UPI,6.32
+2025-05-20 00:00:00,1396,29,Male,CityB,Classic,10,12.26,3.9,Offline,UPI,122.6
+2025-05-21 00:00:00,1981,51,Male,CityB,Classic,10,14.83,2.2,Online,Credit Card,148.3
+2025-05-21 00:00:00,1222,20,Male,CityA,Energy,10,13.39,4.3,Online,UPI,133.9
+2025-05-21 00:00:00,1153,20,Male,CityB,Vitamin-Boost,9,11.46,2.8,Online,Cash,103.14
+2025-05-21 00:00:00,1888,54,Male,CityA,Energy,2,10.38,4.5,Offline,Cash,20.76
+2025-05-21 00:00:00,1726,49,Male,CityB,Sugar-Free,2,8.32,2.8,Offline,Cash,16.64
+2025-05-22 00:00:00,1841,23,Male,CityD,Classic,9,13.5,2.2,Online,Credit Card,121.5
+2025-05-22 00:00:00,1886,53,Female,CityA,Classic,8,10.64,4.2,Offline,Debit Card,85.12
+2025-05-22 00:00:00,1328,52,Male,CityC,Classic,10,9.14,2.6,Online,UPI,91.4
+2025-05-22 00:00:00,1225,39,Male,CityB,Vitamin-Boost,8,10.78,2,Offline,Debit Card,86.24
+2025-05-22 00:00:00,1054,36,Female,CityB,Vitamin-Boost,1,11.04,1.9,Offline,Cash,11.04
+2025-05-22 00:00:00,1334,59,Female,CityA,Classic,1,6.68,1.5,Offline,UPI,6.68
+2025-05-23 00:00:00,1939,51,Female,CityD,Classic,10,13.04,2.6,Offline,Debit Card,130.4
+2025-05-23 00:00:00,1439,40,Male,CityB,Sugar-Free,10,9.31,3.7,Online,UPI,93.1
+2025-05-23 00:00:00,1209,29,Female,CityA,Sugar-Free,10,13.2,3.4,Offline,Credit Card,132
+2025-05-23 00:00:00,1952,34,Male,CityB,Vitamin-Boost,2,14.33,3,Online,UPI,28.66
+2025-05-24 00:00:00,1129,31,Male,CityD,Vitamin-Boost,10,10.55,1.7,Offline,UPI,105.5
+2025-05-24 00:00:00,1795,29,Male,CityA,Energy,2,8.63,2.8,Offline,Credit Card,17.26
+2025-05-24 00:00:00,1178,18,Female,CityB,Classic,10,10.4,2.1,Offline,UPI,104
+2025-05-24 00:00:00,1921,52,Male,CityB,Classic,4,14.13,1.3,Online,Cash,56.52
+2025-05-24 00:00:00,1488,19,Male,CityC,Energy,10,13.12,1.2,Offline,Credit Card,131.2
+2025-05-24 00:00:00,1609,39,Male,CityD,Vitamin-Boost,10,10.64,4.7,Online,UPI,106.4
+2025-05-24 00:00:00,1358,24,Female,CityB,Vitamin-Boost,3,6.11,3.3,Online,Credit Card,18.33
+2025-05-24 00:00:00,1904,30,Female,CityB,Classic,6,9.2,2.2,Online,UPI,55.2
+2025-05-24 00:00:00,1062,50,Male,CityB,Energy,8,9.05,1.6,Offline,Cash,72.4
+2025-05-24 00:00:00,1793,23,Male,CityB,Vitamin-Boost,10,6.69,3.3,Offline,UPI,66.9
+2025-05-25 00:00:00,1346,33,Female,CityD,Classic,10,5.59,4.6,Online,Debit Card,55.9
+2025-05-25 00:00:00,1726,47,Female,CityA,Energy,8,13.3,3.5,Offline,UPI,106.4
+2025-05-25 00:00:00,1584,39,Male,CityA,Classic,10,14.87,4.7,Online,Debit Card,148.7
+2025-05-25 00:00:00,1887,58,Female,CityB,Sugar-Free,3,14.55,4.9,Offline,Debit Card,43.65
+2025-05-25 00:00:00,1225,25,Female,CityD,Sugar-Free,10,5.69,1,Offline,UPI,56.9
+2025-05-25 00:00:00,1997,30,Male,CityD,Energy,9,11.46,4.3,Offline,Cash,103.14
+2025-05-25 00:00:00,1877,45,Male,CityC,Vitamin-Boost,10,6.63,4.1,Offline,UPI,66.3
+2025-05-25 00:00:00,1852,32,Female,CityB,Sugar-Free,3,9.88,3.3,Online,Credit Card,29.64
+2025-05-25 00:00:00,1855,18,Male,CityD,Energy,2,6.86,4.1,Offline,Cash,13.72
+2025-05-25 00:00:00,1812,27,Female,CityD,Vitamin-Boost,10,7.98,1.8,Offline,Credit Card,79.8
+2025-05-26 00:00:00,1477,47,Female,CityB,Sugar-Free,9,6.03,3.6,Online,Debit Card,54.27
+2025-05-26 00:00:00,1585,42,Female,CityA,Classic,10,7.16,4.6,Offline,Cash,71.6
+2025-05-26 00:00:00,1061,38,Male,CityA,Energy,10,6.87,2.6,Offline,Cash,68.7
+2025-05-26 00:00:00,1244,28,Female,CityA,Vitamin-Boost,4,6.2,4.3,Offline,UPI,24.8
+2025-05-26 00:00:00,1687,52,Female,CityB,Vitamin-Boost,6,10.11,1.7,Online,Cash,60.66
+2025-05-26 00:00:00,1112,43,Male,CityA,Classic,10,10.99,5,Offline,Debit Card,109.9
+2025-05-27 00:00:00,1476,42,Male,CityC,Energy,5,12.42,1.7,Online,Cash,62.1
+2025-05-27 00:00:00,1511,41,Female,CityC,Sugar-Free,6,11.69,2,Offline,Credit Card,70.14
+2025-05-27 00:00:00,1127,26,Female,CityD,Sugar-Free,2,11.1,2.3,Offline,UPI,22.2
+2025-05-27 00:00:00,1536,57,Female,CityD,Sugar-Free,10,11.02,2.9,Offline,Credit Card,110.2
+2025-05-27 00:00:00,1176,29,Female,CityC,Sugar-Free,10,5.81,4.1,Offline,UPI,58.1
+2025-05-27 00:00:00,1855,54,Male,CityD,Sugar-Free,8,9.33,2.7,Online,Cash,74.64
+2025-05-27 00:00:00,1053,35,Male,CityC,Sugar-Free,9,5.44,4.5,Offline,Debit Card,48.96
+2025-05-27 00:00:00,1722,37,Male,CityA,Vitamin-Boost,8,6.32,2.3,Offline,Debit Card,50.56
+2025-05-27 00:00:00,1039,34,Male,CityD,Energy,10,11.1,3,Offline,Debit Card,111
+2025-05-27 00:00:00,1199,51,Male,CityC,Classic,1,8.12,3.3,Online,UPI,8.12
+2025-05-28 00:00:00,1669,59,Female,CityD,Classic,10,8.81,4.9,Online,Credit Card,88.1
+2025-05-28 00:00:00,1721,51,Male,CityB,Classic,10,11.63,3.3,Offline,Debit Card,116.3
+2025-05-28 00:00:00,1284,54,Male,CityB,Sugar-Free,5,14.4,1,Online,UPI,72
+2025-05-28 00:00:00,1799,31,Male,CityD,Sugar-Free,4,7.27,3.1,Offline,Credit Card,29.08
+2025-05-28 00:00:00,1709,37,Male,CityD,Sugar-Free,10,6.43,2.9,Offline,UPI,64.3
+2025-05-29 00:00:00,1492,58,Male,CityA,Energy,8,6.64,1.5,Online,Debit Card,53.12
+2025-05-29 00:00:00,1038,22,Male,CityD,Vitamin-Boost,10,7.2,1.5,Online,UPI,72
+2025-05-29 00:00:00,1261,42,Male,CityD,Sugar-Free,6,14.11,3.1,Online,Cash,84.66
+2025-05-30 00:00:00,1290,37,Male,CityC,Vitamin-Boost,10,9.79,4.3,Online,Debit Card,97.9
+2025-05-30 00:00:00,1631,53,Male,CityB,Vitamin-Boost,10,6.35,2.3,Online,Cash,63.5
+2025-05-30 00:00:00,1016,28,Male,CityA,Energy,4,6.53,3,Online,Credit Card,26.12
+2025-05-31 00:00:00,1892,18,Female,CityC,Sugar-Free,10,5.87,3.4,Offline,Debit Card,58.7
+2025-05-31 00:00:00,1688,18,Female,CityC,Energy,8,13.75,4.8,Offline,Debit Card,110
+2025-05-31 00:00:00,1918,35,Female,CityB,Sugar-Free,8,13.73,3.5,Online,UPI,109.84
+2025-05-31 00:00:00,1036,42,Male,CityB,Classic,2,8,2.7,Offline,UPI,16
+2025-05-31 00:00:00,1146,25,Male,CityB,Vitamin-Boost,3,8.15,2.8,Online,Credit Card,24.45
+2025-05-31 00:00:00,1094,35,Male,CityA,Sugar-Free,8,11.93,4.8,Offline,Credit Card,95.44
+2025-05-31 00:00:00,1016,40,Male,CityA,Vitamin-Boost,10,5.62,3.7,Online,Debit Card,56.2
+2025-05-31 00:00:00,1848,32,Male,CityB,Sugar-Free,8,9.9,1.4,Offline,Debit Card,79.2
+2025-05-31 00:00:00,1957,24,Male,CityA,Sugar-Free,1,11.38,2.6,Online,UPI,11.38
+2025-05-31 00:00:00,1294,36,Male,CityB,Energy,4,12.94,4.9,Online,UPI,51.76
+2025-06-01 00:00:00,1956,47,Male,CityA,Classic,7,8.39,1.3,Online,Debit Card,58.73
+2025-06-01 00:00:00,1274,38,Male,CityC,Vitamin-Boost,10,13.97,3.4,Online,Debit Card,139.7
+2025-06-01 00:00:00,1284,25,Male,CityC,Energy,8,5.55,4.8,Offline,Credit Card,44.4
+2025-06-01 00:00:00,1706,38,Male,CityD,Classic,8,13.74,2.8,Online,UPI,109.92
+2025-06-01 00:00:00,1452,36,Female,CityB,Vitamin-Boost,10,14.23,2.3,Online,Debit Card,142.3
+2025-06-01 00:00:00,1209,41,Female,CityB,Vitamin-Boost,10,13.97,3.7,Online,Debit Card,139.7
+2025-06-01 00:00:00,1982,59,Male,CityA,Vitamin-Boost,3,5.62,3,Online,Credit Card,16.86
+2025-06-01 00:00:00,1827,41,Female,CityC,Energy,10,12.34,1.1,Online,Cash,123.4
+2025-06-01 00:00:00,1757,53,Male,CityA,Energy,5,12.2,2.4,Online,Credit Card,61
+2025-06-01 00:00:00,1675,56,Male,CityA,Sugar-Free,10,13.55,4.5,Online,Cash,135.5
+2025-06-01 00:00:00,1285,46,Female,CityC,Energy,10,7.16,1,Offline,UPI,71.6
+2025-06-01 00:00:00,1688,38,Male,CityD,Vitamin-Boost,9,6.9,3.7,Offline,Credit Card,62.1
+2025-06-02 00:00:00,1592,25,Male,CityA,Energy,10,9.03,4.2,Offline,UPI,90.3
+2025-06-02 00:00:00,1385,23,Female,CityC,Energy,3,7.41,4.4,Online,Debit Card,22.23
+2025-06-02 00:00:00,1996,32,Female,CityA,Classic,10,9.03,3.9,Offline,Cash,90.3
+2025-06-02 00:00:00,1738,30,Male,CityC,Classic,10,9.58,4.9,Online,Debit Card,95.8
+2025-06-02 00:00:00,1501,35,Female,CityA,Vitamin-Boost,10,11.31,3.8,Offline,Debit Card,113.1
+2025-06-03 00:00:00,1253,59,Male,CityB,Classic,10,14.58,2.9,Offline,Credit Card,145.8
+2025-06-03 00:00:00,1081,40,Female,CityC,Energy,10,10.69,1.8,Offline,UPI,106.9
+2025-06-03 00:00:00,1489,34,Female,CityA,Energy,3,8.77,3.8,Offline,Cash,26.31
+2025-06-03 00:00:00,1429,36,Female,CityB,Classic,10,14.53,4.4,Offline,Credit Card,145.3
+2025-06-03 00:00:00,1400,32,Male,CityC,Energy,7,12.5,3.6,Offline,UPI,87.5
+2025-06-03 00:00:00,1938,40,Male,CityD,Energy,5,12.29,3.6,Offline,Cash,61.45
+2025-06-04 00:00:00,1223,33,Male,CityA,Sugar-Free,3,13.84,2.9,Online,Debit Card,41.52
+2025-06-04 00:00:00,1974,45,Male,CityB,Vitamin-Boost,10,9.83,4,Offline,Cash,98.3
+2025-06-04 00:00:00,1380,23,Male,CityB,Sugar-Free,10,7.37,4.9,Online,Debit Card,73.7
+2025-06-04 00:00:00,1780,29,Male,CityA,Vitamin-Boost,10,13.84,2.6,Online,Debit Card,138.4
+2025-06-04 00:00:00,1612,52,Female,CityB,Classic,10,14.35,3.3,Offline,Cash,143.5
+2025-06-05 00:00:00,1002,56,Male,CityB,Classic,7,5.39,4.9,Offline,Cash,37.73
+2025-06-06 00:00:00,1833,20,Female,CityC,Sugar-Free,10,5.85,1.2,Offline,Cash,58.5
+2025-06-06 00:00:00,1107,33,Female,CityC,Sugar-Free,9,9.05,3.6,Offline,UPI,81.45
+2025-06-06 00:00:00,1816,24,Male,CityA,Classic,2,7.49,1.7,Offline,Debit Card,14.98
+2025-06-07 00:00:00,1850,31,Male,CityC,Classic,8,5.14,4.4,Offline,UPI,41.12
+2025-06-07 00:00:00,1608,18,Male,CityA,Vitamin-Boost,1,13.42,2.5,Online,Credit Card,13.42
+2025-06-07 00:00:00,1145,43,Male,CityB,Classic,8,12.35,2.9,Offline,Debit Card,98.8
+2025-06-07 00:00:00,1799,30,Female,CityA,Sugar-Free,4,9.83,4.2,Online,Debit Card,39.32
+2025-06-08 00:00:00,1147,52,Female,CityA,Vitamin-Boost,10,14.71,3,Offline,Cash,147.1
+2025-06-08 00:00:00,1747,36,Male,CityB,Sugar-Free,4,6.19,3.7,Offline,Debit Card,24.76
+2025-06-08 00:00:00,1985,48,Female,CityA,Vitamin-Boost,10,14.76,3.6,Online,Cash,147.6
+2025-06-09 00:00:00,1434,48,Male,CityB,Sugar-Free,7,5.86,2.8,Offline,Cash,41.02
+2025-06-09 00:00:00,1415,19,Male,CityB,Energy,2,8.45,1.4,Online,Cash,16.9
+2025-06-09 00:00:00,1348,49,Female,CityB,Vitamin-Boost,10,11.84,4.7,Online,Credit Card,118.4
+2025-06-09 00:00:00,1830,19,Female,CityA,Sugar-Free,10,6.62,4.5,Offline,Cash,66.2
+2025-06-09 00:00:00,1622,54,Female,CityA,Sugar-Free,9,14.32,2.1,Online,Debit Card,128.88
+2025-06-09 00:00:00,1209,27,Male,CityB,Classic,10,6.63,5,Online,Debit Card,66.3
+2025-06-09 00:00:00,1827,37,Male,CityB,Energy,9,8.08,2.2,Online,UPI,72.72
+2025-06-09 00:00:00,1902,28,Female,CityD,Classic,6,8.92,2.4,Offline,Debit Card,53.52
+2025-06-09 00:00:00,1451,42,Female,CityC,Energy,5,8.82,2.3,Offline,Cash,44.1
+2025-06-10 00:00:00,1573,53,Female,CityA,Vitamin-Boost,10,11.31,2.8,Offline,Debit Card,113.1
+2025-06-10 00:00:00,1699,42,Male,CityD,Sugar-Free,3,11.78,3.4,Offline,UPI,35.34
+2025-06-10 00:00:00,1499,50,Male,CityD,Vitamin-Boost,5,10.55,3.1,Online,UPI,52.75
+2025-06-10 00:00:00,1398,31,Male,CityC,Energy,6,12.55,4.8,Offline,UPI,75.3
+2025-06-10 00:00:00,1547,58,Male,CityD,Sugar-Free,4,7.56,3.8,Online,Debit Card,30.24
+2025-06-10 00:00:00,1665,23,Male,CityD,Sugar-Free,10,13.28,2.7,Online,UPI,132.8
+2025-06-10 00:00:00,1545,31,Female,CityA,Energy,8,12.52,4.8,Offline,Credit Card,100.16
+2025-06-10 00:00:00,1860,21,Male,CityA,Sugar-Free,9,14.53,3.7,Online,Cash,130.77
+2025-06-10 00:00:00,1848,49,Male,CityA,Sugar-Free,8,12.58,3.6,Offline,Debit Card,100.64
+2025-06-10 00:00:00,1476,25,Female,CityC,Vitamin-Boost,1,8.83,4.6,Offline,Credit Card,8.83
+2025-06-10 00:00:00,1896,21,Female,CityA,Vitamin-Boost,8,10.72,4.4,Online,Debit Card,85.76
+2025-06-10 00:00:00,1083,34,Male,CityC,Classic,10,10.92,1.5,Offline,Debit Card,109.2
+2025-06-11 00:00:00,1684,59,Male,CityD,Classic,5,11.32,4.8,Online,Cash,56.6
+2025-06-11 00:00:00,1791,43,Female,CityA,Energy,10,14.72,2.2,Offline,Credit Card,147.2
+2025-06-11 00:00:00,1418,40,Female,CityA,Sugar-Free,9,8.93,3.9,Offline,Cash,80.37
+2025-06-11 00:00:00,1922,30,Female,CityD,Classic,8,12.29,3,Offline,Credit Card,98.32
+2025-06-11 00:00:00,1041,25,Female,CityB,Sugar-Free,5,7.07,3.1,Online,Debit Card,35.35
+2025-06-12 00:00:00,1830,25,Female,CityC,Classic,10,7.2,3,Offline,UPI,72
+2025-06-12 00:00:00,1695,28,Male,CityA,Energy,8,10.83,4.5,Offline,Cash,86.64
+2025-06-12 00:00:00,1947,24,Male,CityA,Sugar-Free,8,14.96,4.3,Online,Debit Card,119.68
+2025-06-12 00:00:00,1311,25,Male,CityD,Vitamin-Boost,10,5.49,2.1,Offline,Debit Card,54.9
+2025-06-12 00:00:00,1136,55,Male,CityC,Classic,10,6.89,4.9,Online,Debit Card,68.9
+2025-06-12 00:00:00,1506,52,Male,CityB,Sugar-Free,10,8.28,3.3,Offline,UPI,82.8
+2025-06-13 00:00:00,1957,27,Male,CityA,Sugar-Free,10,13.44,1.4,Offline,Cash,134.4
+2025-06-13 00:00:00,1017,39,Female,CityD,Classic,2,13.26,1.6,Offline,Credit Card,26.52
+2025-06-13 00:00:00,1500,45,Female,CityB,Vitamin-Boost,4,6.51,3.4,Offline,Debit Card,26.04
+2025-06-13 00:00:00,1323,46,Male,CityB,Sugar-Free,8,11.76,1.4,Online,UPI,94.08
+2025-06-13 00:00:00,1390,50,Male,CityC,Classic,2,12.29,3.4,Offline,UPI,24.58
+2025-06-13 00:00:00,1434,47,Male,CityA,Classic,2,6.99,2.1,Offline,Credit Card,13.98
+2025-06-13 00:00:00,1101,29,Female,CityD,Classic,8,14.09,1.5,Offline,Cash,112.72
+2025-06-14 00:00:00,1621,53,Male,CityB,Sugar-Free,1,10.85,2.8,Offline,Debit Card,10.85
+2025-06-14 00:00:00,1272,44,Female,CityD,Sugar-Free,5,5.47,3.3,Online,Debit Card,27.35
+2025-06-14 00:00:00,1505,34,Female,CityD,Energy,1,10.45,1.4,Offline,Credit Card,10.45
+2025-06-15 00:00:00,1266,38,Male,CityA,Classic,9,8.52,1.4,Offline,UPI,76.68
+2025-06-15 00:00:00,1768,51,Male,CityD,Sugar-Free,6,10.88,4.8,Offline,Cash,65.28
+2025-06-15 00:00:00,1737,22,Male,CityB,Classic,10,12.75,4.4,Offline,UPI,127.5
+2025-06-15 00:00:00,1525,19,Male,CityB,Sugar-Free,6,14.61,1.7,Online,Debit Card,87.66
+2025-06-15 00:00:00,1413,38,Male,CityD,Energy,8,10.13,3.7,Offline,Debit Card,81.04
+2025-06-16 00:00:00,1425,21,Male,CityA,Vitamin-Boost,10,12.85,4.6,Online,UPI,128.5
+2025-06-16 00:00:00,1574,28,Male,CityA,Energy,7,6.43,4,Offline,Cash,45.01
+2025-06-16 00:00:00,1781,38,Female,CityB,Classic,10,8.83,1.5,Offline,UPI,88.3
+2025-06-16 00:00:00,1363,33,Male,CityA,Vitamin-Boost,4,8.44,3.7,Online,Debit Card,33.76
+2025-06-17 00:00:00,1957,38,Male,CityC,Energy,7,12.6,3.6,Offline,Debit Card,88.2
+2025-06-17 00:00:00,1571,19,Male,CityC,Energy,10,13.98,1.8,Online,Credit Card,139.8
+2025-06-17 00:00:00,1028,59,Male,CityB,Vitamin-Boost,9,8.55,3.6,Offline,Credit Card,76.95
+2025-06-17 00:00:00,1989,33,Male,CityA,Energy,10,11.71,1.2,Offline,Credit Card,117.1
+2025-06-17 00:00:00,1155,37,Male,CityB,Energy,6,5.8,3.1,Offline,Debit Card,34.8
+2025-06-17 00:00:00,1988,26,Male,CityD,Energy,2,13.05,4.8,Offline,Credit Card,26.1
+2025-06-18 00:00:00,1643,42,Male,CityA,Energy,5,11.26,4.9,Offline,Cash,56.3
+2025-06-18 00:00:00,1988,53,Female,CityC,Energy,6,9.47,4.8,Online,UPI,56.82
+2025-06-19 00:00:00,1132,41,Female,CityB,Energy,5,12.3,1.2,Offline,UPI,61.5
+2025-06-19 00:00:00,1881,43,Male,CityB,Vitamin-Boost,10,13.8,2.4,Online,Cash,138
+2025-06-19 00:00:00,1972,42,Male,CityA,Classic,10,6.47,4.7,Offline,UPI,64.7
+2025-06-19 00:00:00,1371,24,Female,CityD,Sugar-Free,10,11.97,4,Offline,Cash,119.7
+2025-06-19 00:00:00,1708,38,Male,CityB,Sugar-Free,10,7.81,4,Online,UPI,78.1
+2025-06-19 00:00:00,1401,25,Male,CityC,Classic,10,14.65,3,Offline,Cash,146.5
+2025-06-20 00:00:00,1147,21,Male,CityD,Energy,2,6.38,4.3,Online,UPI,12.76
+2025-06-20 00:00:00,1984,47,Female,CityC,Sugar-Free,7,5.42,2.8,Offline,Cash,37.94
+2025-06-21 00:00:00,1050,38,Female,CityA,Vitamin-Boost,10,14.46,3.9,Offline,Cash,144.6
+2025-06-21 00:00:00,1291,30,Male,CityC,Classic,10,10,4.1,Offline,Debit Card,100
+2025-06-21 00:00:00,1181,40,Female,CityC,Energy,6,8.78,2.5,Online,Cash,52.68
+2025-06-21 00:00:00,1038,32,Male,CityA,Energy,10,7.18,3.1,Online,Credit Card,71.8
+2025-06-21 00:00:00,1385,48,Male,CityD,Classic,8,6.27,4.8,Offline,Cash,50.16
+2025-06-21 00:00:00,1747,31,Male,CityD,Classic,5,8.34,4.3,Online,Cash,41.7
+2025-06-22 00:00:00,1273,46,Male,CityA,Energy,10,14.21,1.6,Offline,Debit Card,142.1
+2025-06-22 00:00:00,1726,57,Female,CityD,Energy,6,10.12,2.1,Online,Credit Card,60.72
+2025-06-22 00:00:00,1569,38,Male,CityA,Energy,5,10.6,3.2,Online,Credit Card,53
+2025-06-22 00:00:00,1348,30,Female,CityB,Classic,7,6.38,4.9,Online,Credit Card,44.66
+2025-06-22 00:00:00,1804,28,Female,CityD,Classic,5,6.81,2.4,Offline,UPI,34.05
+2025-06-22 00:00:00,1607,40,Female,CityD,Sugar-Free,1,5.55,2.7,Offline,Debit Card,5.55
+2025-06-23 00:00:00,1593,23,Female,CityD,Classic,6,6.05,3.8,Online,Credit Card,36.3
+2025-06-23 00:00:00,1006,38,Female,CityD,Energy,10,8.35,3,Offline,Cash,83.5
+2025-06-24 00:00:00,1068,25,Male,CityB,Vitamin-Boost,1,5.26,4,Offline,Cash,5.26
+2025-06-24 00:00:00,1839,30,Male,CityC,Vitamin-Boost,8,13.9,3,Online,UPI,111.2
+2025-06-24 00:00:00,1150,38,Female,CityA,Energy,9,10.99,4.9,Offline,Credit Card,98.91
+2025-06-24 00:00:00,1197,39,Female,CityB,Classic,2,11.34,1.1,Offline,Debit Card,22.68
+2025-06-25 00:00:00,1992,26,Male,CityC,Classic,4,8.87,2.4,Online,Credit Card,35.48
+2025-06-25 00:00:00,1896,51,Male,CityA,Classic,3,14.22,1.3,Offline,Cash,42.66
+2025-06-25 00:00:00,1821,30,Male,CityC,Energy,3,10.88,1.4,Online,Credit Card,32.64
+2025-06-26 00:00:00,1373,33,Male,CityD,Energy,4,11.46,3.2,Offline,Credit Card,45.84
+2025-06-26 00:00:00,1570,49,Male,CityB,Vitamin-Boost,7,7.06,4.1,Online,Credit Card,49.42
+2025-06-26 00:00:00,1844,35,Male,CityC,Classic,10,10.56,3.4,Offline,Cash,105.6
+2025-06-26 00:00:00,1659,43,Male,CityC,Sugar-Free,8,6.07,2.1,Offline,UPI,48.56
+2025-06-26 00:00:00,1612,25,Male,CityC,Energy,10,13.46,4.5,Online,Credit Card,134.6
+2025-06-27 00:00:00,1114,51,Female,CityA,Sugar-Free,10,5.25,3,Online,Cash,52.5
+2025-06-27 00:00:00,1664,54,Female,CityC,Sugar-Free,10,5.1,3.5,Offline,Cash,51
+2025-06-27 00:00:00,1360,46,Female,CityA,Energy,4,6.24,4.7,Online,Cash,24.96
+2025-06-27 00:00:00,1068,26,Male,CityB,Energy,1,13.8,2.1,Offline,Credit Card,13.8
+2025-06-27 00:00:00,1458,21,Female,CityA,Sugar-Free,1,11.67,1.6,Offline,Credit Card,11.67
+2025-06-27 00:00:00,1994,26,Female,CityA,Classic,5,13.79,2.1,Offline,Debit Card,68.95
+2025-06-27 00:00:00,1161,38,Female,CityC,Sugar-Free,1,5.12,2,Offline,Debit Card,5.12
+2025-06-28 00:00:00,1356,22,Male,CityC,Vitamin-Boost,7,14.56,2.7,Offline,UPI,101.92
+2025-06-28 00:00:00,1645,31,Male,CityB,Vitamin-Boost,10,10.35,4.9,Online,Debit Card,103.5
+2025-06-28 00:00:00,1301,45,Female,CityB,Energy,10,5.86,4.5,Online,UPI,58.6
+2025-06-28 00:00:00,1458,21,Male,CityC,Classic,3,8.22,3.2,Online,Cash,24.66
+2025-06-28 00:00:00,1980,45,Female,CityC,Energy,7,10.72,2.7,Online,Debit Card,75.04
+2025-06-28 00:00:00,1194,38,Male,CityA,Sugar-Free,8,14.81,1.7,Offline,UPI,118.48
+2025-06-28 00:00:00,1750,56,Female,CityC,Vitamin-Boost,10,7.21,3.9,Online,Debit Card,72.1
+2025-06-29 00:00:00,1015,40,Female,CityA,Vitamin-Boost,6,12.42,2.1,Online,Cash,74.52
+2025-06-29 00:00:00,1566,22,Female,CityB,Vitamin-Boost,10,14.98,1.3,Online,UPI,149.8
+2025-06-29 00:00:00,1915,43,Male,CityB,Vitamin-Boost,4,5.01,3.2,Online,Debit Card,20.04
+2025-06-29 00:00:00,1534,30,Female,CityB,Energy,10,12.44,3.5,Offline,Credit Card,124.4
+2025-06-29 00:00:00,1295,28,Male,CityD,Sugar-Free,1,5.14,1.4,Online,Debit Card,5.14
+2025-06-29 00:00:00,1546,32,Male,CityD,Energy,8,7.76,1.9,Online,Cash,62.08
+2025-06-29 00:00:00,1720,21,Male,CityB,Classic,3,14.49,4.4,Offline,Debit Card,43.47
